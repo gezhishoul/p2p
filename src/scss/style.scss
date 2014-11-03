@@ -17,6 +17,9 @@
 .fr{
   float: right;
 }
+.active{
+  color: $themeColor;
+}
 // header begin
 .container{
   width: 980px;

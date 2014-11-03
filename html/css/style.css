@@ -490,6 +490,10 @@ textarea::-webkit-input-placeholder {
   float: right;
 }
 
+.active {
+  color: #29aadf;
+}
+
 .container {
   width: 980px;
   margin: 0 auto;
