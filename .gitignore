@@ -1,2 +1,5 @@
 .idea/
 .sass-cache/
+html/*.js
+html/js/main.js
+html/js/main.min.js
