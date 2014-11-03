@@ -1,0 +1,728 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'gulp-compass',
+1 verbose cli   'gulp-autoprefixer',
+1 verbose cli   'gulp-minify-css',
+1 verbose cli   'gulp-uglify',
+1 verbose cli   'gulp-rename',
+1 verbose cli   'gulp-concat',
+1 verbose cli   'gulp-notify',
+1 verbose cli   'gulp-livereload',
+1 verbose cli   'gulp-plumber' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink /usr/bin/node
+5 verbose config Skipping project config: /home/ryan/.npmrc. (matches userconfig)
+6 verbose cache add [ 'gulp-compass', null ]
+7 verbose cache add name=undefined spec="gulp-compass" args=["gulp-compass",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'gulp-compass',
+8 verbose parsed url   path: 'gulp-compass',
+8 verbose parsed url   href: 'gulp-compass' }
+9 verbose cache add [ 'gulp-autoprefixer', null ]
+10 verbose cache add name=undefined spec="gulp-autoprefixer" args=["gulp-autoprefixer",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'gulp-autoprefixer',
+11 verbose parsed url   path: 'gulp-autoprefixer',
+11 verbose parsed url   href: 'gulp-autoprefixer' }
+12 verbose cache add [ 'gulp-minify-css', null ]
+13 verbose cache add name=undefined spec="gulp-minify-css" args=["gulp-minify-css",null]
+14 verbose parsed url { protocol: null,
+14 verbose parsed url   slashes: null,
+14 verbose parsed url   auth: null,
+14 verbose parsed url   host: null,
+14 verbose parsed url   port: null,
+14 verbose parsed url   hostname: null,
+14 verbose parsed url   hash: null,
+14 verbose parsed url   search: null,
+14 verbose parsed url   query: null,
+14 verbose parsed url   pathname: 'gulp-minify-css',
+14 verbose parsed url   path: 'gulp-minify-css',
+14 verbose parsed url   href: 'gulp-minify-css' }
+15 verbose cache add [ 'gulp-uglify', null ]
+16 verbose cache add name=undefined spec="gulp-uglify" args=["gulp-uglify",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'gulp-uglify',
+17 verbose parsed url   path: 'gulp-uglify',
+17 verbose parsed url   href: 'gulp-uglify' }
+18 verbose cache add [ 'gulp-rename', null ]
+19 verbose cache add name=undefined spec="gulp-rename" args=["gulp-rename",null]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: 'gulp-rename',
+20 verbose parsed url   path: 'gulp-rename',
+20 verbose parsed url   href: 'gulp-rename' }
+21 verbose cache add [ 'gulp-concat', null ]
+22 verbose cache add name=undefined spec="gulp-concat" args=["gulp-concat",null]
+23 verbose parsed url { protocol: null,
+23 verbose parsed url   slashes: null,
+23 verbose parsed url   auth: null,
+23 verbose parsed url   host: null,
+23 verbose parsed url   port: null,
+23 verbose parsed url   hostname: null,
+23 verbose parsed url   hash: null,
+23 verbose parsed url   search: null,
+23 verbose parsed url   query: null,
+23 verbose parsed url   pathname: 'gulp-concat',
+23 verbose parsed url   path: 'gulp-concat',
+23 verbose parsed url   href: 'gulp-concat' }
+24 verbose cache add [ 'gulp-notify', null ]
+25 verbose cache add name=undefined spec="gulp-notify" args=["gulp-notify",null]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: 'gulp-notify',
+26 verbose parsed url   path: 'gulp-notify',
+26 verbose parsed url   href: 'gulp-notify' }
+27 verbose cache add [ 'gulp-livereload', null ]
+28 verbose cache add name=undefined spec="gulp-livereload" args=["gulp-livereload",null]
+29 verbose parsed url { protocol: null,
+29 verbose parsed url   slashes: null,
+29 verbose parsed url   auth: null,
+29 verbose parsed url   host: null,
+29 verbose parsed url   port: null,
+29 verbose parsed url   hostname: null,
+29 verbose parsed url   hash: null,
+29 verbose parsed url   search: null,
+29 verbose parsed url   query: null,
+29 verbose parsed url   pathname: 'gulp-livereload',
+29 verbose parsed url   path: 'gulp-livereload',
+29 verbose parsed url   href: 'gulp-livereload' }
+30 verbose cache add [ 'gulp-plumber', null ]
+31 verbose cache add name=undefined spec="gulp-plumber" args=["gulp-plumber",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'gulp-plumber',
+32 verbose parsed url   path: 'gulp-plumber',
+32 verbose parsed url   href: 'gulp-plumber' }
+33 silly lockFile 9d014d50-gulp-compass gulp-compass
+34 verbose lock gulp-compass /home/ryan/.npm/9d014d50-gulp-compass.lock
+35 silly lockFile 1367cca4-gulp-autoprefixer gulp-autoprefixer
+36 verbose lock gulp-autoprefixer /home/ryan/.npm/1367cca4-gulp-autoprefixer.lock
+37 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+38 verbose lock gulp-minify-css /home/ryan/.npm/6bf44555-gulp-minify-css.lock
+39 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+40 verbose lock gulp-uglify /home/ryan/.npm/15fab96b-gulp-uglify.lock
+41 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+42 verbose lock gulp-rename /home/ryan/.npm/8ff38cb7-gulp-rename.lock
+43 silly lockFile a9575072-gulp-concat gulp-concat
+44 verbose lock gulp-concat /home/ryan/.npm/a9575072-gulp-concat.lock
+45 silly lockFile 6a726d29-gulp-notify gulp-notify
+46 verbose lock gulp-notify /home/ryan/.npm/6a726d29-gulp-notify.lock
+47 silly lockFile 9adcedcb-gulp-livereload gulp-livereload
+48 verbose lock gulp-livereload /home/ryan/.npm/9adcedcb-gulp-livereload.lock
+49 silly lockFile 7e537b87-gulp-plumber gulp-plumber
+50 verbose lock gulp-plumber /home/ryan/.npm/7e537b87-gulp-plumber.lock
+51 silly lockFile 9d014d50-gulp-compass gulp-compass
+52 silly lockFile 9d014d50-gulp-compass gulp-compass
+53 silly lockFile 1367cca4-gulp-autoprefixer gulp-autoprefixer
+54 silly lockFile 1367cca4-gulp-autoprefixer gulp-autoprefixer
+55 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+56 silly lockFile 6bf44555-gulp-minify-css gulp-minify-css
+57 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+58 silly lockFile 15fab96b-gulp-uglify gulp-uglify
+59 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+60 silly lockFile 8ff38cb7-gulp-rename gulp-rename
+61 silly lockFile a9575072-gulp-concat gulp-concat
+62 silly lockFile a9575072-gulp-concat gulp-concat
+63 silly lockFile 6a726d29-gulp-notify gulp-notify
+64 silly lockFile 6a726d29-gulp-notify gulp-notify
+65 silly lockFile 9adcedcb-gulp-livereload gulp-livereload
+66 silly lockFile 9adcedcb-gulp-livereload gulp-livereload
+67 silly lockFile 7e537b87-gulp-plumber gulp-plumber
+68 silly lockFile 7e537b87-gulp-plumber gulp-plumber
+69 verbose addNamed [ 'gulp-compass', '' ]
+70 verbose addNamed [ null, '*' ]
+71 silly lockFile 77f48923-gulp-compass gulp-compass@
+72 verbose lock gulp-compass@ /home/ryan/.npm/77f48923-gulp-compass.lock
+73 verbose addNamed [ 'gulp-autoprefixer', '' ]
+74 verbose addNamed [ null, '*' ]
+75 silly lockFile e459a000-gulp-autoprefixer gulp-autoprefixer@
+76 verbose lock gulp-autoprefixer@ /home/ryan/.npm/e459a000-gulp-autoprefixer.lock
+77 verbose addNamed [ 'gulp-minify-css', '' ]
+78 verbose addNamed [ null, '*' ]
+79 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+80 verbose lock gulp-minify-css@ /home/ryan/.npm/37de6304-gulp-minify-css.lock
+81 verbose addNamed [ 'gulp-uglify', '' ]
+82 verbose addNamed [ null, '*' ]
+83 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+84 verbose lock gulp-uglify@ /home/ryan/.npm/044a9113-gulp-uglify.lock
+85 verbose addNamed [ 'gulp-rename', '' ]
+86 verbose addNamed [ null, '*' ]
+87 silly lockFile 81aa0665-gulp-rename gulp-rename@
+88 verbose lock gulp-rename@ /home/ryan/.npm/81aa0665-gulp-rename.lock
+89 verbose addNamed [ 'gulp-concat', '' ]
+90 verbose addNamed [ null, '*' ]
+91 silly lockFile 190d832a-gulp-concat gulp-concat@
+92 verbose lock gulp-concat@ /home/ryan/.npm/190d832a-gulp-concat.lock
+93 verbose addNamed [ 'gulp-notify', '' ]
+94 verbose addNamed [ null, '*' ]
+95 silly lockFile 6b689132-gulp-notify gulp-notify@
+96 verbose lock gulp-notify@ /home/ryan/.npm/6b689132-gulp-notify.lock
+97 verbose addNamed [ 'gulp-livereload', '' ]
+98 verbose addNamed [ null, '*' ]
+99 silly lockFile 8b03fe56-gulp-livereload gulp-livereload@
+100 verbose lock gulp-livereload@ /home/ryan/.npm/8b03fe56-gulp-livereload.lock
+101 verbose addNamed [ 'gulp-plumber', '' ]
+102 verbose addNamed [ null, '*' ]
+103 silly lockFile 501700bf-gulp-plumber gulp-plumber@
+104 verbose lock gulp-plumber@ /home/ryan/.npm/501700bf-gulp-plumber.lock
+105 silly addNameRange { name: 'gulp-compass', range: '*', hasData: false }
+106 silly addNameRange { name: 'gulp-autoprefixer', range: '*', hasData: false }
+107 silly addNameRange { name: 'gulp-minify-css', range: '*', hasData: false }
+108 silly addNameRange { name: 'gulp-uglify', range: '*', hasData: false }
+109 silly addNameRange { name: 'gulp-rename', range: '*', hasData: false }
+110 silly addNameRange { name: 'gulp-concat', range: '*', hasData: false }
+111 silly addNameRange { name: 'gulp-notify', range: '*', hasData: false }
+112 silly addNameRange { name: 'gulp-livereload', range: '*', hasData: false }
+113 silly addNameRange { name: 'gulp-plumber', range: '*', hasData: false }
+114 verbose request where is /gulp-uglify
+115 verbose request registry http://registry.npm.taobao.org/
+116 verbose request id 212f3d324d705cb7
+117 verbose url raw /gulp-uglify
+118 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-uglify' ]
+119 verbose url resolved http://registry.npm.taobao.org/gulp-uglify
+120 verbose request where is http://registry.npm.taobao.org/gulp-uglify
+121 info trying registry request attempt 1 at 08:48:11
+122 verbose etag "1409726309000"
+123 http GET http://registry.npm.taobao.org/gulp-uglify
+124 verbose request where is /gulp-concat
+125 verbose request registry http://registry.npm.taobao.org/
+126 verbose url raw /gulp-concat
+127 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-concat' ]
+128 verbose url resolved http://registry.npm.taobao.org/gulp-concat
+129 verbose request where is http://registry.npm.taobao.org/gulp-concat
+130 info trying registry request attempt 1 at 08:48:11
+131 verbose etag "1410912152000"
+132 http GET http://registry.npm.taobao.org/gulp-concat
+133 verbose request where is /gulp-compass
+134 verbose request registry http://registry.npm.taobao.org/
+135 verbose url raw /gulp-compass
+136 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-compass' ]
+137 verbose url resolved http://registry.npm.taobao.org/gulp-compass
+138 verbose request where is http://registry.npm.taobao.org/gulp-compass
+139 info trying registry request attempt 1 at 08:48:11
+140 verbose etag "1408435258000"
+141 http GET http://registry.npm.taobao.org/gulp-compass
+142 verbose request where is /gulp-autoprefixer
+143 verbose request registry http://registry.npm.taobao.org/
+144 verbose url raw /gulp-autoprefixer
+145 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-autoprefixer' ]
+146 verbose url resolved http://registry.npm.taobao.org/gulp-autoprefixer
+147 verbose request where is http://registry.npm.taobao.org/gulp-autoprefixer
+148 info trying registry request attempt 1 at 08:48:11
+149 verbose etag "1408921439000"
+150 http GET http://registry.npm.taobao.org/gulp-autoprefixer
+151 verbose request where is /gulp-minify-css
+152 verbose request registry http://registry.npm.taobao.org/
+153 verbose url raw /gulp-minify-css
+154 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-minify-css' ]
+155 verbose url resolved http://registry.npm.taobao.org/gulp-minify-css
+156 verbose request where is http://registry.npm.taobao.org/gulp-minify-css
+157 info trying registry request attempt 1 at 08:48:11
+158 verbose etag "1405763839000"
+159 http GET http://registry.npm.taobao.org/gulp-minify-css
+160 verbose request where is /gulp-rename
+161 verbose request registry http://registry.npm.taobao.org/
+162 verbose url raw /gulp-rename
+163 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-rename' ]
+164 verbose url resolved http://registry.npm.taobao.org/gulp-rename
+165 verbose request where is http://registry.npm.taobao.org/gulp-rename
+166 info trying registry request attempt 1 at 08:48:11
+167 verbose etag "1397573423000"
+168 http GET http://registry.npm.taobao.org/gulp-rename
+169 verbose request where is /gulp-livereload
+170 verbose request registry http://registry.npm.taobao.org/
+171 verbose url raw /gulp-livereload
+172 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-livereload' ]
+173 verbose url resolved http://registry.npm.taobao.org/gulp-livereload
+174 verbose request where is http://registry.npm.taobao.org/gulp-livereload
+175 info trying registry request attempt 1 at 08:48:12
+176 verbose etag "1408680850000"
+177 http GET http://registry.npm.taobao.org/gulp-livereload
+178 verbose request where is /gulp-notify
+179 verbose request registry http://registry.npm.taobao.org/
+180 verbose url raw /gulp-notify
+181 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-notify' ]
+182 verbose url resolved http://registry.npm.taobao.org/gulp-notify
+183 verbose request where is http://registry.npm.taobao.org/gulp-notify
+184 info trying registry request attempt 1 at 08:48:12
+185 verbose etag "1408391456000"
+186 http GET http://registry.npm.taobao.org/gulp-notify
+187 verbose request where is /gulp-plumber
+188 verbose request registry http://registry.npm.taobao.org/
+189 verbose url raw /gulp-plumber
+190 verbose url resolving [ 'http://registry.npm.taobao.org/', './gulp-plumber' ]
+191 verbose url resolved http://registry.npm.taobao.org/gulp-plumber
+192 verbose request where is http://registry.npm.taobao.org/gulp-plumber
+193 info trying registry request attempt 1 at 08:48:12
+194 verbose etag "1408976050000"
+195 http GET http://registry.npm.taobao.org/gulp-plumber
+196 http 200 http://registry.npm.taobao.org/gulp-autoprefixer
+197 silly registry.get cb [ 200,
+197 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+197 silly registry.get     'content-type': 'application/json; charset=utf-8',
+197 silly registry.get     'content-length': '17335',
+197 silly registry.get     connection: 'keep-alive',
+197 silly registry.get     'x-powered-by': 'koa',
+197 silly registry.get     etag: '"1411320145000"',
+197 silly registry.get     'x-readtime': '16' } ]
+198 http 304 http://registry.npm.taobao.org/gulp-uglify
+199 silly registry.get cb [ 304,
+199 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+199 silly registry.get     connection: 'keep-alive',
+199 silly registry.get     'x-powered-by': 'koa',
+199 silly registry.get     etag: '"1409726309000"',
+199 silly registry.get     'x-readtime': '6' } ]
+200 verbose etag http://registry.npm.taobao.org/gulp-uglify from cache
+201 http 304 http://registry.npm.taobao.org/gulp-concat
+202 silly registry.get cb [ 304,
+202 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+202 silly registry.get     connection: 'keep-alive',
+202 silly registry.get     'x-powered-by': 'koa',
+202 silly registry.get     etag: '"1410912152000"',
+202 silly registry.get     'x-readtime': '4' } ]
+203 verbose etag http://registry.npm.taobao.org/gulp-concat from cache
+204 silly addNameRange number 2 { name: 'gulp-autoprefixer', range: '*', hasData: true }
+205 silly addNameRange versions [ 'gulp-autoprefixer',
+205 silly addNameRange   [ '1.0.1',
+205 silly addNameRange     '1.0.0',
+205 silly addNameRange     '0.0.10',
+205 silly addNameRange     '0.0.9',
+205 silly addNameRange     '0.0.8',
+205 silly addNameRange     '0.0.7',
+205 silly addNameRange     '0.0.6',
+205 silly addNameRange     '0.0.5',
+205 silly addNameRange     '0.0.4',
+205 silly addNameRange     '0.0.3',
+205 silly addNameRange     '0.0.2',
+205 silly addNameRange     '0.0.1' ] ]
+206 verbose addNamed [ 'gulp-autoprefixer', '1.0.1' ]
+207 verbose addNamed [ '1.0.1', '1.0.1' ]
+208 silly lockFile 622e4353-gulp-autoprefixer-1-0-1 gulp-autoprefixer@1.0.1
+209 verbose lock gulp-autoprefixer@1.0.1 /home/ryan/.npm/622e4353-gulp-autoprefixer-1-0-1.lock
+210 silly addNameRange number 2 { name: 'gulp-uglify', range: '*', hasData: true }
+211 silly addNameRange versions [ 'gulp-uglify',
+211 silly addNameRange   [ '1.0.1',
+211 silly addNameRange     '1.0.0',
+211 silly addNameRange     '1.0.0-0',
+211 silly addNameRange     '0.3.2',
+211 silly addNameRange     '0.3.1',
+211 silly addNameRange     '0.3.0',
+211 silly addNameRange     '0.2.1',
+211 silly addNameRange     '0.2.0',
+211 silly addNameRange     '0.1.0',
+211 silly addNameRange     '0.0.4',
+211 silly addNameRange     '0.0.3',
+211 silly addNameRange     '0.0.1' ] ]
+212 verbose addNamed [ 'gulp-uglify', '1.0.1' ]
+213 verbose addNamed [ '1.0.1', '1.0.1' ]
+214 silly lockFile cef7c707-gulp-uglify-1-0-1 gulp-uglify@1.0.1
+215 verbose lock gulp-uglify@1.0.1 /home/ryan/.npm/cef7c707-gulp-uglify-1-0-1.lock
+216 silly addNameRange number 2 { name: 'gulp-concat', range: '*', hasData: true }
+217 silly addNameRange versions [ 'gulp-concat',
+217 silly addNameRange   [ '2.4.1',
+217 silly addNameRange     '2.4.0',
+217 silly addNameRange     '2.3.5',
+217 silly addNameRange     '2.3.4',
+217 silly addNameRange     '2.3.3',
+217 silly addNameRange     '2.3.0',
+217 silly addNameRange     '2.1.3',
+217 silly addNameRange     '2.2.0',
+217 silly addNameRange     '2.1.7',
+217 silly addNameRange     '2.1.6',
+217 silly addNameRange     '2.1.5',
+217 silly addNameRange     '2.1.4',
+217 silly addNameRange     '2.1.2',
+217 silly addNameRange     '2.1.1',
+217 silly addNameRange     '2.1.0',
+217 silly addNameRange     '2.0.0',
+217 silly addNameRange     '1.1.0',
+217 silly addNameRange     '1.0.0',
+217 silly addNameRange     '0.0.1' ] ]
+218 verbose addNamed [ 'gulp-concat', '2.4.1' ]
+219 verbose addNamed [ '2.4.1', '2.4.1' ]
+220 silly lockFile 248ae42e-gulp-concat-2-4-1 gulp-concat@2.4.1
+221 verbose lock gulp-concat@2.4.1 /home/ryan/.npm/248ae42e-gulp-concat-2-4-1.lock
+222 silly lockFile 4b0b0025-y-download-gulp-uglify-1-0-1-tgz http://registry.npm.taobao.org/gulp-uglify/download/gulp-uglify-1.0.1.tgz
+223 verbose lock http://registry.npm.taobao.org/gulp-uglify/download/gulp-uglify-1.0.1.tgz /home/ryan/.npm/4b0b0025-y-download-gulp-uglify-1-0-1-tgz.lock
+224 silly lockFile 6827f484-load-gulp-autoprefixer-1-0-1-tgz http://registry.npm.taobao.org/gulp-autoprefixer/download/gulp-autoprefixer-1.0.1.tgz
+225 verbose lock http://registry.npm.taobao.org/gulp-autoprefixer/download/gulp-autoprefixer-1.0.1.tgz /home/ryan/.npm/6827f484-load-gulp-autoprefixer-1-0-1-tgz.lock
+226 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-uglify/download/gulp-uglify-1.0.1.tgz',
+226 verbose addRemoteTarball   'd70a24ff85b179a7b16cee577023f19b9c4ba96f' ]
+227 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-autoprefixer/download/gulp-autoprefixer-1.0.1.tgz',
+227 verbose addRemoteTarball   'e42b00d59733dda44c3f201dd21e4dcb4da84733' ]
+228 silly lockFile 248ae42e-gulp-concat-2-4-1 gulp-concat@2.4.1
+229 silly lockFile 248ae42e-gulp-concat-2-4-1 gulp-concat@2.4.1
+230 silly lockFile 190d832a-gulp-concat gulp-concat@
+231 silly lockFile 190d832a-gulp-concat gulp-concat@
+232 info retry fetch attempt 1 at 08:48:12
+233 verbose fetch to= /tmp/npm-40538-Yy1QRPDq/registry.npm.taobao.org/gulp-uglify/download/gulp-uglify-1.0.1.tgz
+234 http GET http://registry.npm.taobao.org/gulp-uglify/download/gulp-uglify-1.0.1.tgz
+235 info retry fetch attempt 1 at 08:48:12
+236 verbose fetch to= /tmp/npm-40538-Yy1QRPDq/registry.npm.taobao.org/gulp-autoprefixer/download/gulp-autoprefixer-1.0.1.tgz
+237 http GET http://registry.npm.taobao.org/gulp-autoprefixer/download/gulp-autoprefixer-1.0.1.tgz
+238 http 200 http://registry.npm.taobao.org/gulp-rename
+239 silly registry.get cb [ 200,
+239 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+239 silly registry.get     'content-type': 'application/json; charset=utf-8',
+239 silly registry.get     'content-length': '10030',
+239 silly registry.get     connection: 'keep-alive',
+239 silly registry.get     'x-powered-by': 'koa',
+239 silly registry.get     etag: '"1397602223000"',
+239 silly registry.get     'x-readtime': '74' } ]
+240 silly addNameRange number 2 { name: 'gulp-rename', range: '*', hasData: true }
+241 silly addNameRange versions [ 'gulp-rename',
+241 silly addNameRange   [ '1.2.0', '1.1.0', '1.0.0', '0.2.2', '0.2.1', '0.1.0' ] ]
+242 verbose addNamed [ 'gulp-rename', '1.2.0' ]
+243 verbose addNamed [ '1.2.0', '1.2.0' ]
+244 silly lockFile 5981c611-gulp-rename-1-2-0 gulp-rename@1.2.0
+245 verbose lock gulp-rename@1.2.0 /home/ryan/.npm/5981c611-gulp-rename-1-2-0.lock
+246 silly lockFile 5981c611-gulp-rename-1-2-0 gulp-rename@1.2.0
+247 silly lockFile 5981c611-gulp-rename-1-2-0 gulp-rename@1.2.0
+248 silly lockFile 81aa0665-gulp-rename gulp-rename@
+249 silly lockFile 81aa0665-gulp-rename gulp-rename@
+250 http 200 http://registry.npm.taobao.org/gulp-livereload
+251 silly registry.get cb [ 200,
+251 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+251 silly registry.get     'content-type': 'application/json; charset=utf-8',
+251 silly registry.get     'content-length': '22454',
+251 silly registry.get     connection: 'keep-alive',
+251 silly registry.get     'x-powered-by': 'koa',
+251 silly registry.get     etag: '"1408709650000"',
+251 silly registry.get     'x-readtime': '270' } ]
+252 http 200 http://registry.npm.taobao.org/gulp-minify-css
+253 silly registry.get cb [ 200,
+253 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+253 silly registry.get     'content-type': 'application/json; charset=utf-8',
+253 silly registry.get     'content-length': '23192',
+253 silly registry.get     connection: 'keep-alive',
+253 silly registry.get     'x-powered-by': 'koa',
+253 silly registry.get     etag: '"1413518768000"',
+253 silly registry.get     'x-readtime': '165' } ]
+254 http 200 http://registry.npm.taobao.org/gulp-plumber
+255 silly registry.get cb [ 200,
+255 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+255 silly registry.get     'content-type': 'application/json; charset=utf-8',
+255 silly registry.get     'content-length': '38259',
+255 silly registry.get     connection: 'keep-alive',
+255 silly registry.get     'x-powered-by': 'koa',
+255 silly registry.get     etag: '"1412256657000"',
+255 silly registry.get     'x-readtime': '184' } ]
+256 silly addNameRange number 2 { name: 'gulp-livereload', range: '*', hasData: true }
+257 silly addNameRange versions [ 'gulp-livereload',
+257 silly addNameRange   [ '2.1.1',
+257 silly addNameRange     '2.1.0',
+257 silly addNameRange     '2.0.0',
+257 silly addNameRange     '1.5.0',
+257 silly addNameRange     '1.4.2',
+257 silly addNameRange     '1.4.1',
+257 silly addNameRange     '1.3.1',
+257 silly addNameRange     '1.2.0',
+257 silly addNameRange     '1.1.1',
+257 silly addNameRange     '1.1.0',
+257 silly addNameRange     '1.0.0',
+257 silly addNameRange     '1.0.1',
+257 silly addNameRange     '0.3.2',
+257 silly addNameRange     '0.3.1',
+257 silly addNameRange     '0.3.0',
+257 silly addNameRange     '0.2.0',
+257 silly addNameRange     '0.1.1' ] ]
+258 verbose addNamed [ 'gulp-livereload', '2.1.1' ]
+259 verbose addNamed [ '2.1.1', '2.1.1' ]
+260 silly lockFile e881b615-gulp-livereload-2-1-1 gulp-livereload@2.1.1
+261 verbose lock gulp-livereload@2.1.1 /home/ryan/.npm/e881b615-gulp-livereload-2-1-1.lock
+262 silly addNameRange number 2 { name: 'gulp-minify-css', range: '*', hasData: true }
+263 silly addNameRange versions [ 'gulp-minify-css',
+263 silly addNameRange   [ '0.3.11',
+263 silly addNameRange     '0.3.10',
+263 silly addNameRange     '0.3.9',
+263 silly addNameRange     '0.3.8',
+263 silly addNameRange     '0.3.7',
+263 silly addNameRange     '0.3.6',
+263 silly addNameRange     '0.3.5',
+263 silly addNameRange     '0.3.4',
+263 silly addNameRange     '0.3.3',
+263 silly addNameRange     '0.3.2',
+263 silly addNameRange     '0.3.1',
+263 silly addNameRange     '0.3.0',
+263 silly addNameRange     '0.2.0',
+263 silly addNameRange     '0.1.0',
+263 silly addNameRange     '0.0.1' ] ]
+264 verbose addNamed [ 'gulp-minify-css', '0.3.11' ]
+265 verbose addNamed [ '0.3.11', '0.3.11' ]
+266 silly lockFile 45873031-gulp-minify-css-0-3-11 gulp-minify-css@0.3.11
+267 verbose lock gulp-minify-css@0.3.11 /home/ryan/.npm/45873031-gulp-minify-css-0-3-11.lock
+268 silly addNameRange number 2 { name: 'gulp-plumber', range: '*', hasData: true }
+269 silly addNameRange versions [ 'gulp-plumber',
+269 silly addNameRange   [ '0.6.6',
+269 silly addNameRange     '0.6.5',
+269 silly addNameRange     '0.6.4',
+269 silly addNameRange     '0.6.3',
+269 silly addNameRange     '0.6.2',
+269 silly addNameRange     '0.6.1',
+269 silly addNameRange     '0.6.0',
+269 silly addNameRange     '0.5.6',
+269 silly addNameRange     '0.5.5',
+269 silly addNameRange     '0.5.4',
+269 silly addNameRange     '0.5.3',
+269 silly addNameRange     '0.5.2',
+269 silly addNameRange     '0.5.1',
+269 silly addNameRange     '0.5.0',
+269 silly addNameRange     '0.5.0-rc1',
+269 silly addNameRange     '0.4.1',
+269 silly addNameRange     '0.4.0',
+269 silly addNameRange     '0.3.0',
+269 silly addNameRange     '0.2.3',
+269 silly addNameRange     '0.2.1',
+269 silly addNameRange     '0.2.0',
+269 silly addNameRange     '0.1.0',
+269 silly addNameRange     '0.0.1' ] ]
+270 verbose addNamed [ 'gulp-plumber', '0.6.6' ]
+271 verbose addNamed [ '0.6.6', '0.6.6' ]
+272 silly lockFile 696516d0-gulp-plumber-0-6-6 gulp-plumber@0.6.6
+273 verbose lock gulp-plumber@0.6.6 /home/ryan/.npm/696516d0-gulp-plumber-0-6-6.lock
+274 silly lockFile e91566b5-nload-gulp-minify-css-0-3-11-tgz http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.11.tgz
+275 verbose lock http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.11.tgz /home/ryan/.npm/e91566b5-nload-gulp-minify-css-0-3-11-tgz.lock
+276 silly lockFile e1e2ccc2--download-gulp-plumber-0-6-6-tgz http://registry.npm.taobao.org/gulp-plumber/download/gulp-plumber-0.6.6.tgz
+277 verbose lock http://registry.npm.taobao.org/gulp-plumber/download/gulp-plumber-0.6.6.tgz /home/ryan/.npm/e1e2ccc2--download-gulp-plumber-0-6-6-tgz.lock
+278 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.11.tgz',
+278 verbose addRemoteTarball   'e2133aaacb09e8ac439e2e398483cde35e323b76' ]
+279 silly lockFile e881b615-gulp-livereload-2-1-1 gulp-livereload@2.1.1
+280 silly lockFile e881b615-gulp-livereload-2-1-1 gulp-livereload@2.1.1
+281 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-plumber/download/gulp-plumber-0.6.6.tgz',
+281 verbose addRemoteTarball   '9f9846a513c70d03216ce7a2a8ce6fd5a3fc3175' ]
+282 silly lockFile 8b03fe56-gulp-livereload gulp-livereload@
+283 silly lockFile 8b03fe56-gulp-livereload gulp-livereload@
+284 info retry fetch attempt 1 at 08:48:12
+285 verbose fetch to= /tmp/npm-40538-Yy1QRPDq/registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.11.tgz
+286 info retry fetch attempt 1 at 08:48:12
+287 verbose fetch to= /tmp/npm-40538-Yy1QRPDq/registry.npm.taobao.org/gulp-plumber/download/gulp-plumber-0.6.6.tgz
+288 http GET http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.11.tgz
+289 http GET http://registry.npm.taobao.org/gulp-plumber/download/gulp-plumber-0.6.6.tgz
+290 http 200 http://registry.npm.taobao.org/gulp-compass
+291 silly registry.get cb [ 200,
+291 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+291 silly registry.get     'content-type': 'application/json; charset=utf-8',
+291 silly registry.get     'content-length': '50853',
+291 silly registry.get     connection: 'keep-alive',
+291 silly registry.get     'x-powered-by': 'koa',
+291 silly registry.get     etag: '"1414064189000"',
+291 silly registry.get     'x-readtime': '416' } ]
+292 silly addNameRange number 2 { name: 'gulp-compass', range: '*', hasData: true }
+293 silly addNameRange versions [ 'gulp-compass',
+293 silly addNameRange   [ '2.0.1',
+293 silly addNameRange     '2.0.0',
+293 silly addNameRange     '1.3.3',
+293 silly addNameRange     '1.3.2',
+293 silly addNameRange     '1.3.1',
+293 silly addNameRange     '1.3.0',
+293 silly addNameRange     '1.2.0',
+293 silly addNameRange     '1.1.9',
+293 silly addNameRange     '1.1.8',
+293 silly addNameRange     '1.1.7',
+293 silly addNameRange     '1.1.6',
+293 silly addNameRange     '1.1.5',
+293 silly addNameRange     '1.1.4',
+293 silly addNameRange     '1.1.3',
+293 silly addNameRange     '1.1.2',
+293 silly addNameRange     '1.1.1',
+293 silly addNameRange     '1.1.0',
+293 silly addNameRange     '1.0.9',
+293 silly addNameRange     '1.0.8',
+293 silly addNameRange     '1.0.7',
+293 silly addNameRange     '1.0.6',
+293 silly addNameRange     '1.0.5',
+293 silly addNameRange     '1.0.4',
+293 silly addNameRange     '1.0.3',
+293 silly addNameRange     '1.0.2',
+293 silly addNameRange     '1.0.1',
+293 silly addNameRange     '1.0.0',
+293 silly addNameRange     '0.0.6',
+293 silly addNameRange     '0.0.5',
+293 silly addNameRange     '0.0.4',
+293 silly addNameRange     '0.0.3',
+293 silly addNameRange     '0.0.2',
+293 silly addNameRange     '0.0.1' ] ]
+294 verbose addNamed [ 'gulp-compass', '2.0.1' ]
+295 verbose addNamed [ '2.0.1', '2.0.1' ]
+296 silly lockFile 4e81101d-gulp-compass-2-0-1 gulp-compass@2.0.1
+297 verbose lock gulp-compass@2.0.1 /home/ryan/.npm/4e81101d-gulp-compass-2-0-1.lock
+298 silly lockFile 106a464c--download-gulp-compass-2-0-1-tgz http://registry.npm.taobao.org/gulp-compass/download/gulp-compass-2.0.1.tgz
+299 verbose lock http://registry.npm.taobao.org/gulp-compass/download/gulp-compass-2.0.1.tgz /home/ryan/.npm/106a464c--download-gulp-compass-2-0-1-tgz.lock
+300 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-compass/download/gulp-compass-2.0.1.tgz',
+300 verbose addRemoteTarball   '4da52626f41de7c782111180b8342002b83a3843' ]
+301 info retry fetch attempt 1 at 08:48:12
+302 verbose fetch to= /tmp/npm-40538-Yy1QRPDq/registry.npm.taobao.org/gulp-compass/download/gulp-compass-2.0.1.tgz
+303 http GET http://registry.npm.taobao.org/gulp-compass/download/gulp-compass-2.0.1.tgz
+304 http 200 http://registry.npm.taobao.org/gulp-notify
+305 silly registry.get cb [ 200,
+305 silly registry.get   { date: 'Mon, 03 Nov 2014 00:48:12 GMT',
+305 silly registry.get     'content-type': 'application/json; charset=utf-8',
+305 silly registry.get     'content-length': '73288',
+305 silly registry.get     connection: 'keep-alive',
+305 silly registry.get     'x-powered-by': 'koa',
+305 silly registry.get     etag: '"1412570460000"',
+305 silly registry.get     'x-readtime': '502' } ]
+306 http 200 http://registry.npm.taobao.org/gulp-uglify/download/gulp-uglify-1.0.1.tgz
+307 silly addNameRange number 2 { name: 'gulp-notify', range: '*', hasData: true }
+308 silly addNameRange versions [ 'gulp-notify',
+308 silly addNameRange   [ '2.0.0',
+308 silly addNameRange     '1.8.0',
+308 silly addNameRange     '1.7.1',
+308 silly addNameRange     '1.7.0',
+308 silly addNameRange     '1.6.0',
+308 silly addNameRange     '1.5.1',
+308 silly addNameRange     '1.5.0',
+308 silly addNameRange     '1.4.2',
+308 silly addNameRange     '1.4.1',
+308 silly addNameRange     '1.4.0',
+308 silly addNameRange     '1.3.1',
+308 silly addNameRange     '1.3.0',
+308 silly addNameRange     '1.2.6',
+308 silly addNameRange     '1.2.5',
+308 silly addNameRange     '1.2.4',
+308 silly addNameRange     '1.2.2',
+308 silly addNameRange     '1.2.1',
+308 silly addNameRange     '1.2.0',
+308 silly addNameRange     '1.1.1',
+308 silly addNameRange     '1.1.0',
+308 silly addNameRange     '1.0.0-beta',
+308 silly addNameRange     '0.6.2',
+308 silly addNameRange     '0.6.1',
+308 silly addNameRange     '0.6.0',
+308 silly addNameRange     '0.5.1',
+308 silly addNameRange     '0.5.0',
+308 silly addNameRange     '0.4.6',
+308 silly addNameRange     '0.4.5',
+308 silly addNameRange     '0.4.3',
+308 silly addNameRange     '0.4.2',
+308 silly addNameRange     '0.4.1',
+308 silly addNameRange     '0.4.0',
+308 silly addNameRange     '0.3.5-0',
+308 silly addNameRange     '0.3.4-2',
+308 silly addNameRange     '0.3.4-1',
+308 silly addNameRange     '0.3.4',
+308 silly addNameRange     '0.3.3',
+308 silly addNameRange     '0.3.2',
+308 silly addNameRange     '0.3.0',
+308 silly addNameRange     '0.2.0',
+308 silly addNameRange     '0.1.0',
+308 silly addNameRange     '0.0.8',
+308 silly addNameRange     '0.0.7',
+308 silly addNameRange     '0.0.6',
+308 silly addNameRange     '0.0.5' ] ]
+309 verbose addNamed [ 'gulp-notify', '2.0.0' ]
+310 verbose addNamed [ '2.0.0', '2.0.0' ]
+311 silly lockFile 7975f324-gulp-notify-2-0-0 gulp-notify@2.0.0
+312 verbose lock gulp-notify@2.0.0 /home/ryan/.npm/7975f324-gulp-notify-2-0-0.lock
+313 silly lockFile d38e75a5-y-download-gulp-notify-2-0-0-tgz http://registry.npm.taobao.org/gulp-notify/download/gulp-notify-2.0.0.tgz
+314 verbose lock http://registry.npm.taobao.org/gulp-notify/download/gulp-notify-2.0.0.tgz /home/ryan/.npm/d38e75a5-y-download-gulp-notify-2-0-0-tgz.lock
+315 verbose addRemoteTarball [ 'http://registry.npm.taobao.org/gulp-notify/download/gulp-notify-2.0.0.tgz',
+315 verbose addRemoteTarball   '5941e8af15c97ab29f4637141635a8c3a834d131' ]
+316 info retry fetch attempt 1 at 08:48:12
+317 verbose fetch to= /tmp/npm-40538-Yy1QRPDq/registry.npm.taobao.org/gulp-notify/download/gulp-notify-2.0.0.tgz
+318 silly lockFile 4b0b0025-y-download-gulp-uglify-1-0-1-tgz http://registry.npm.taobao.org/gulp-uglify/download/gulp-uglify-1.0.1.tgz
+319 silly lockFile 4b0b0025-y-download-gulp-uglify-1-0-1-tgz http://registry.npm.taobao.org/gulp-uglify/download/gulp-uglify-1.0.1.tgz
+320 http GET http://registry.npm.taobao.org/gulp-notify/download/gulp-notify-2.0.0.tgz
+321 silly lockFile cef7c707-gulp-uglify-1-0-1 gulp-uglify@1.0.1
+322 silly lockFile cef7c707-gulp-uglify-1-0-1 gulp-uglify@1.0.1
+323 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+324 silly lockFile 044a9113-gulp-uglify gulp-uglify@
+325 http 200 http://registry.npm.taobao.org/gulp-autoprefixer/download/gulp-autoprefixer-1.0.1.tgz
+326 silly lockFile 6827f484-load-gulp-autoprefixer-1-0-1-tgz http://registry.npm.taobao.org/gulp-autoprefixer/download/gulp-autoprefixer-1.0.1.tgz
+327 silly lockFile 6827f484-load-gulp-autoprefixer-1-0-1-tgz http://registry.npm.taobao.org/gulp-autoprefixer/download/gulp-autoprefixer-1.0.1.tgz
+328 silly lockFile 622e4353-gulp-autoprefixer-1-0-1 gulp-autoprefixer@1.0.1
+329 silly lockFile 622e4353-gulp-autoprefixer-1-0-1 gulp-autoprefixer@1.0.1
+330 silly lockFile e459a000-gulp-autoprefixer gulp-autoprefixer@
+331 silly lockFile e459a000-gulp-autoprefixer gulp-autoprefixer@
+332 http 200 http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.11.tgz
+333 silly lockFile e91566b5-nload-gulp-minify-css-0-3-11-tgz http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.11.tgz
+334 silly lockFile e91566b5-nload-gulp-minify-css-0-3-11-tgz http://registry.npm.taobao.org/gulp-minify-css/download/gulp-minify-css-0.3.11.tgz
+335 silly lockFile 45873031-gulp-minify-css-0-3-11 gulp-minify-css@0.3.11
+336 silly lockFile 45873031-gulp-minify-css-0-3-11 gulp-minify-css@0.3.11
+337 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+338 silly lockFile 37de6304-gulp-minify-css gulp-minify-css@
+339 http 200 http://registry.npm.taobao.org/gulp-plumber/download/gulp-plumber-0.6.6.tgz
+340 silly lockFile e1e2ccc2--download-gulp-plumber-0-6-6-tgz http://registry.npm.taobao.org/gulp-plumber/download/gulp-plumber-0.6.6.tgz
+341 silly lockFile e1e2ccc2--download-gulp-plumber-0-6-6-tgz http://registry.npm.taobao.org/gulp-plumber/download/gulp-plumber-0.6.6.tgz
+342 silly lockFile 696516d0-gulp-plumber-0-6-6 gulp-plumber@0.6.6
+343 silly lockFile 696516d0-gulp-plumber-0-6-6 gulp-plumber@0.6.6
+344 silly lockFile 501700bf-gulp-plumber gulp-plumber@
+345 silly lockFile 501700bf-gulp-plumber gulp-plumber@
+346 http 200 http://registry.npm.taobao.org/gulp-compass/download/gulp-compass-2.0.1.tgz
+347 http 200 http://registry.npm.taobao.org/gulp-notify/download/gulp-notify-2.0.0.tgz
+348 silly lockFile d38e75a5-y-download-gulp-notify-2-0-0-tgz http://registry.npm.taobao.org/gulp-notify/download/gulp-notify-2.0.0.tgz
+349 silly lockFile d38e75a5-y-download-gulp-notify-2-0-0-tgz http://registry.npm.taobao.org/gulp-notify/download/gulp-notify-2.0.0.tgz
+350 silly lockFile 7975f324-gulp-notify-2-0-0 gulp-notify@2.0.0
+351 silly lockFile 7975f324-gulp-notify-2-0-0 gulp-notify@2.0.0
+352 silly lockFile 6b689132-gulp-notify gulp-notify@
+353 silly lockFile 6b689132-gulp-notify gulp-notify@
+354 silly lockFile 106a464c--download-gulp-compass-2-0-1-tgz http://registry.npm.taobao.org/gulp-compass/download/gulp-compass-2.0.1.tgz
+355 silly lockFile 106a464c--download-gulp-compass-2-0-1-tgz http://registry.npm.taobao.org/gulp-compass/download/gulp-compass-2.0.1.tgz
+356 silly lockFile 4e81101d-gulp-compass-2-0-1 gulp-compass@2.0.1
+357 silly lockFile 4e81101d-gulp-compass-2-0-1 gulp-compass@2.0.1
+358 silly lockFile 77f48923-gulp-compass gulp-compass@
+359 silly lockFile 77f48923-gulp-compass gulp-compass@
+360 error Error: EACCES, mkdir '/home/ryan/.npm/gulp-compass/2.0.1'
+360 error  { [Error: EACCES, mkdir '/home/ryan/.npm/gulp-compass/2.0.1']
+360 error   errno: 3,
+360 error   code: 'EACCES',
+360 error   path: '/home/ryan/.npm/gulp-compass/2.0.1' }
+361 error Please try running this command again as root/Administrator.
+362 error System Linux 3.13.0-37-generic
+363 error command "/usr/bin/node" "/usr/bin/npm" "install" "gulp-compass" "gulp-autoprefixer" "gulp-minify-css" "gulp-uglify" "gulp-rename" "gulp-concat" "gulp-notify" "gulp-livereload" "gulp-plumber"
+364 error cwd /home/ryan/www/p2p
+365 error node -v v0.10.32
+366 error npm -v 1.4.28
+367 error path /home/ryan/.npm/gulp-compass/2.0.1
+368 error code EACCES
+369 error errno 3
+370 error stack Error: EACCES, mkdir '/home/ryan/.npm/gulp-compass/2.0.1'
+371 verbose exit [ 3, true ]
