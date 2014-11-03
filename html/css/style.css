@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -5,8 +6,6 @@
  * 0. sassCore's style
  */
 html {
-  font-family: sans-serif;
-  /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
   -webkit-text-size-adjust: 100%;
@@ -66,17 +65,13 @@ summary {
 a {
   background: transparent;
   /* 1 */
-  /* 0 */
   text-decoration: none;
-  color: #08c;
+  color: #333;
 }
 a:active, a:hover {
   outline: 0;
   /* 2 */
   color: #29aadf;
-}
-a:hover {
-  color: #006699;
 }
 
 /* Text-level semantics
@@ -402,12 +397,70 @@ q {
   quotes: none;
 }
 
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
+
+.table-larger > thead > tr > th,
+.table-larger > tbody > tr > th,
+.table-larger > tfoot > tr > th,
+.table-larger > thead > tr > td,
+.table-larger > tbody > tr > td,
+.table-larger > tfoot > tr > td {
+  padding: 14px;
+}
+
+.table > thead > tr > th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #ddd;
+}
+
+.table > caption + thead > tr:first-child > th,
+.table > colgroup + thead > tr:first-child > th,
+.table > thead:first-child > tr:first-child > th,
+.table > caption + thead > tr:first-child > td,
+.table > colgroup + thead > tr:first-child > td,
+.table > thead:first-child > tr:first-child > td {
+  border-top: 0;
+}
+
+.table > tbody + tbody {
+  border-top: 2px solid #ddd;
+}
+
+.table .table {
+  background-color: #fff;
+}
+
+.table-hover > tbody > tr > td.active:hover,
+.table-hover > tbody > tr > th.active:hover,
+.table-hover > tbody > tr.active:hover > td,
+.table-hover > tbody > tr:hover,
+.table-hover > tbody > tr.active:hover > th {
+  background-color: #e8e8e8;
+}
+
 html,
 button,
 input,
 select,
 textarea {
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
+  font-family: "Microsoft Yahei", "微软雅黑", tahoma, arial, sans-serif, \5b8b\4f53 ;
 }
 
 h1, h2, h3, h4, h5, h6, p, figure, form, blockquote {
@@ -499,6 +552,36 @@ textarea::-webkit-input-placeholder {
   margin: 0 auto;
 }
 
+.posr {
+  position: relative;
+}
+
+.posa {
+  position: absolute;
+}
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.header {
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
 .header-top {
   background: #555;
 }
@@ -512,4 +595,110 @@ textarea::-webkit-input-placeholder {
 }
 .header-top a:hover {
   color: #29aadf;
+}
+
+.logo {
+  display: block;
+  height: 72px;
+  width: 140px;
+  background: url(http://www.renrendai.com/static/img/logo.png?v=f3810) no-repeat 0 center;
+}
+
+.nav li {
+  float: left;
+}
+
+.nav a {
+  padding: 0 20px;
+  height: 72px;
+  line-height: 72px;
+  font-size: 18px;
+  color: #555;
+}
+.nav a:hover, .nav a:active {
+  color: #29aadf;
+}
+
+.nav .active {
+  color: #29aadf;
+}
+
+.footer {
+  padding: 10px 0;
+  background: #5D5D5D;
+  color: #ddd;
+}
+
+.footer li {
+  float: left;
+  min-width: 75px;
+  height: 24px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+
+.footer a {
+  color: #ddd;
+}
+.footer a:hover {
+  color: #29aadf;
+}
+
+.footer .tel {
+  font-size: 20px;
+}
+
+.footerUs p {
+  margin-top: 6px;
+}
+
+.banner, .banner li {
+  height: 365px;
+  width: 100%;
+}
+
+.banner img {
+  display: block;
+  margin: 0 auto;
+}
+
+.banner .switcher {
+  position: absolute;
+  left: 50%;
+  bottom: 16px;
+  z-index: 9;
+  margin-left: -30px;
+}
+
+.banner .switcher a {
+  float: left;
+  width: 13px;
+  height: 13px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background: #aaa;
+}
+
+.banner .switcher .active {
+  background: #29aadf;
+}
+
+.loanList .listTitle, .newsList .listTitle {
+  font-size: 20px;
+  color: #555;
+}
+
+.loanList tfoot a {
+  color: #555;
+}
+.loanList tfoot a:hover {
+  color: #29aadf;
+}
+
+.newsList table {
+  text-align: left;
+}
+
+.newsList .text-right {
+  text-align: right;
 }

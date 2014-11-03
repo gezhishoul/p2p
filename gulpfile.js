@@ -7,6 +7,13 @@ var gulp             = require('gulp'),
     concat           = require('gulp-concat'),
     plumber          = require('gulp-plumber'),
     path             = require('path');
+function swallowError (error) {
+
+    //If you want details of the error in the console
+    console.log(error.toString());
+
+    this.emit('end');
+}
 //styles
 gulp.task('styles', function() {
     return gulp.src(['src/scss/**/*.scss'])
@@ -15,6 +22,7 @@ gulp.task('styles', function() {
             sass: 'src/scss',
             image: 'html/images'
         }))
+        .on('error', swallowError)
         .pipe(gulp.dest('html/css'))
         .pipe(rename({ suffix: '.min' }))
         .pipe(minifycss())
@@ -33,7 +41,6 @@ gulp.task('scripts', function() {
 
 //watch
 gulp.task('live', function() {
-
     //watch .scss files
     gulp.watch('src/scss/**/*.scss', ['styles']);
 
@@ -44,6 +51,9 @@ gulp.task('live', function() {
     gulp.watch('templates/**/*.html', 'html/css/styles.min.css', 'html/js/main.min.js', function(event) {
         gulp.src(event.path)
             .pipe(plumber())
+            .on('error', swallowError)
+            .pipe(livereload())
     });
 });
+
 gulp.task('default',['styles','scripts','live']);
