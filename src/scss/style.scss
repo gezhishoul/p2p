@@ -1,146 +1,6 @@
 @import "_setting";
 @import "_reset";
 @import "_index";
-.clearFix:before,.clearFix:after{
-  content:"";
-  display:table;
-}
-.clearFix:after{
-  clear:both;
-}
-.clearFix{
-  zoom:1;
-}
-.fl{
-  float: left;
-}
-.fr{
-  float: right;
-}
-.active{
-  color: $themeColor;
-}
-.btn {
-  display: inline-block;
-  margin-bottom: 0;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  border: 1px solid transparent;
-  white-space: nowrap;
-  padding: 6px 12px;
-  font-size: 14px;
-  line-height: 1.42857;
-  border-radius: 4px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none; }
-.btn:focus, .btn:active:focus, .btn.active:focus {
-  outline: thin dotted;
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px; }
-.btn:hover, .btn:focus {
-  color: #333;
-  text-decoration: none; }
-.btn:active, .btn.active {
-  outline: 0;
-  background-image: none;
-  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); }
-.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
-  cursor: not-allowed;
-  pointer-events: none;
-  opacity: 0.65;
-  filter: alpha(opacity=65);
-  -webkit-box-shadow: none;
-  box-shadow: none; }
-
-.btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc; }
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad; }
-.btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  background-image: none; }
-.btn-default.disabled, .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled:active, .btn-default.disabled.active, .btn-default[disabled], .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled]:active, .btn-default[disabled].active, fieldset[disabled] .btn-default, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default:active, fieldset[disabled] .btn-default.active {
-  background-color: #fff;
-  border-color: #ccc; }
-.btn-default .badge {
-  color: #fff;
-  background-color: #333; }
-.btn-primary {
-  color: #fff;
-  background-color: #428bca;
-  border-color: #357ebd; }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #3071a9;
-  border-color: #285e8e; }
-.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-  background-image: none; }
-.btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
-  background-color: #428bca;
-  border-color: #357ebd; }
-.btn-primary .badge {
-  color: #428bca;
-  background-color: #fff; }
-.container{
-  width: 980px;
-  margin: 0 auto;
-}
-.posr{
-  position: relative;
-}
-.posa{
-  position: absolute;
-}
-.mt10{
-  margin-top: 10px;
-}
-.mt30{
-  margin-top: 30px;
-}
-.text-right{
-  text-align: right;
-}
-.text-center{
-  text-align: center;
-}
-.p20bs {
-  padding: 19px;
-  border: 1px solid #e0e0e0;
-  box-shadow: 0 0 2px 1px #efefef;
-  background: #fff;
-}
-.highCor,.lowCor,.midCor{
-  color: #fff;
-}
-.highCor{
-  background: #8ab46e;
-}
-.lowCor{
-  background: #f01f5a;
-}
-.midCor{
-  background: #fb5a00;
-}
-.themeBtn{
-  padding: 6px 20px;
-  color:#fff;
-  background: $themeColor;
-  border-radius: 15px;
-}
-.themeBtn:hover{
-  color:#fff;
-  opacity: 0.8;
-  filter:alpha(opacity=80);
-}
 
 // header begin
 .header{
@@ -167,10 +27,10 @@
   width: 140px;
   background: url(http://www.renrendai.com/static/img/logo.png?v=f3810) no-repeat 0 center;
 }
-.nav li{
+.nav>li{
   float: left;
 }
-.nav a{
+.nav>li>a{
   padding: 0 20px;
   height: 72px;
   line-height: 72px;
@@ -183,6 +43,15 @@
 .nav .active{
   color: $themeColor;
 }
+.header-main{
+  position: relative;
+  z-index: 10;
+  .dropdown-menu{
+    top: 55px;
+    z-index: 10;
+  }
+}
+
 //footer begin
 .footer{
   margin-top: 30px;

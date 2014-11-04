@@ -12,8 +12,22 @@
         <div class="container">
             <ul class="nav fr">
                 <li><a class="active" href="index.php">首页</a></li>
-                <li><a href="invest.php">我要理财</a></li>
-                <li><a href="">我要借款</a></li>
+                <li class="dropdown">
+                    <a href="invest.php">我要理财 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">way1</a></li>
+                        <li><a href="">way2</a></li>
+                        <li><a href="">way3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="">我要借款 <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="">way1</a></li>
+                        <li><a href="">way2</a></li>
+                        <li><a href="">way3</a></li>
+                    </ul>
+                </li>
                 <li><a href="">新手指引</a></li>
                 <li><a href="">关于我们</a></li>
             </ul>
