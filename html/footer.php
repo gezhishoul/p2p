@@ -21,5 +21,5 @@
     </div>
     <p class="text-center">© 2014 xxx All rights reserved</p>
 </div>
-<script src="js/jquery-1.11.1.min.js"></script>
-<script src="js/common.js"></script>
+<script src="js/sea.js" type="text/javascript"></script>
+<script src="js/common.js" type="text/javascript"></script>

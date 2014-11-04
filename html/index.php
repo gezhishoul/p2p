@@ -46,16 +46,16 @@
                 <tbody>
                 <tr>
                     <td><a href="#">资金周转</a></td>
-                    <td>A</td>
+                    <td><span class="creditLel highCor">A</span></td>
                     <td>10.00%</td>
                     <td>30,000元</td>
                     <td>3个月</td>
                     <td>100%</td>
-                    <td><a href="#">投标</a></td>
+                    <td><a class="themeBtn" href="#">投标</a></td>
                 </tr>
                 <tr>
                     <td><a href="#">资金周转</a></td>
-                    <td>E</td>
+                    <td><span class="creditLel lowCor">E</span></td>
                     <td>10.00%</td>
                     <td>30,000元</td>
                     <td>3个月</td>
@@ -64,7 +64,7 @@
                 </tr>
                 <tr>
                     <td><a href="#">资金周转</a></td>
-                    <td>C</td>
+                    <td><span class="creditLel midCor">C</span></td>
                     <td>10.00%</td>
                     <td>30,000元</td>
                     <td>3个月</td>
@@ -88,15 +88,15 @@
             <table class="table table-larger table-hover">
                 <tbody>
                 <tr>
-                    <td>中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</td>
+                    <td><a href="#">中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</a></td>
                     <td class="text-right">2014-09-22</td>
                 </tr>
                 <tr>
-                    <td>中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</td>
+                    <td><a href="#">中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</a></td>
                     <td class="text-right">2014-09-22</td>
                 </tr>
                 <tr>
-                    <td>中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</td>
+                    <td><a href="#">中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</a></td>
                     <td class="text-right">2014-09-22</td>
                 </tr>
                 </tbody>
@@ -104,6 +104,16 @@
         </div>
     </div>
     <?php include 'footer.php' ?>
-    <script src="js/jquery.Xslider.js"></script>
+    <script type="text/javascript">
+        seajs.use(['$','xslider'],function(){
+            $("#banner").Xslider({
+                space: 4000,
+                conbox: '.slides',
+                affect:'fade',
+                ctag: 'li',
+                current:'active'
+            });
+        })
+    </script>
 </body>
 </html>
