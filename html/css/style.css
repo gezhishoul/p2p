@@ -29,7 +29,7 @@ body {
   /* 0 */
   color: #333;
   /* 0 */
-  background-color: #fff;
+  background-color: #f2f2f2;
   /* 0 */
 }
 
@@ -424,15 +424,15 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 21px;
+  font-size: 25.2px;
 }
 
 h2 {
-  font-size: 18.2px;
+  font-size: 21px;
 }
 
 h3 {
-  font-size: 16.38px;
+  font-size: 18.2px;
 }
 
 h4 {
@@ -440,7 +440,7 @@ h4 {
 }
 
 h5, h6 {
-  font-size: 11.9px;
+  font-size: 15.4px;
   text-transform: uppercase;
 }
 
@@ -699,6 +699,18 @@ textarea::-webkit-input-placeholder {
   background: #fb5a00;
 }
 
+.warning {
+  background: #f0ad4e;
+}
+
+.success {
+  background: #428bca;
+}
+
+.info {
+  background: #5bc0de;
+}
+
 .themeBtn {
   padding: 6px 20px;
   color: #fff;
@@ -856,6 +868,10 @@ textarea::-webkit-input-placeholder {
   margin-top: 6px;
 }
 
+.patrol {
+  background: #fff;
+}
+
 .banner, .banner li {
   height: 365px;
   width: 100%;
@@ -921,4 +937,53 @@ textarea::-webkit-input-placeholder {
 
 .newsList .text-right {
   text-align: right;
+}
+
+.proTypeContent .proList {
+  width: 300px;
+  height: 400px;
+  margin-right: 20px;
+  background-color: #fff;
+  border: 1px solid #E0E0E0;
+  border-radius: 5px;
+  overflow: hidden;
+  color: #555;
+  font-size: 13px;
+}
+
+.proTypeContent h2 {
+  height: 50px;
+  line-height: 50px;
+  padding: 5px 20px;
+  color: #fff;
+  font-size: 18px;
+  opacity: .7;
+}
+
+.proTypeContent .proContent {
+  padding: 20px;
+  padding-top: 10px;
+}
+
+.proTypeContent .proContent ul {
+  height: 108px;
+  margin-left: 20px;
+  list-style: disc;
+}
+
+.proTypeContent .proFooter {
+  margin: 16px 0 6px;
+  padding-top: 20px;
+  border-top: 1px solid #e9e9e9;
+}
+
+.proTypeContent .proFooter a {
+  display: block;
+  width: 160px;
+  height: 36px;
+  line-height: 36px;
+  margin: 0 auto;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 5px;
 }

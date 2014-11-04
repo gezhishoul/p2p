@@ -8,7 +8,7 @@
     <meta name="keywords" content="" />
     <link href="css/style.css" rel="stylesheet" />
 </head>
-<body>
+<body class="patrol">
     <?php include 'header.php' ?>
     <div class="page">
         <div class="banner posr" id="banner">
