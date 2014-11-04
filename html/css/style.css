@@ -676,6 +676,10 @@ textarea::-webkit-input-placeholder {
   text-align: center;
 }
 
+.p20 {
+  padding: 20px;
+}
+
 .p20bs {
   padding: 19px;
   border: 1px solid #e0e0e0;
@@ -685,6 +689,10 @@ textarea::-webkit-input-placeholder {
 
 .highCor, .lowCor, .midCor {
   color: #fff;
+}
+
+.themeCor {
+  color: #29aadf;
 }
 
 .highCor {

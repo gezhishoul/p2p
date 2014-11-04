@@ -34,3 +34,18 @@
   color: #666;
   font-weight: 500;
 }
+
+.loanDetailTitle, .loanDetailTitle h2 {
+  height: 58px;
+  line-height: 58px;
+}
+
+.loanDetailTitle {
+  padding: 0 20px;
+  border-bottom: 1px solid #e0e0e0;
+  overflow: hidden;
+}
+
+.loanDetail {
+  background: #fff;
+}
