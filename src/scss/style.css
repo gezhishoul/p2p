@@ -366,7 +366,8 @@ q {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
-  text-align: center; }
+  text-align: center;
+  background: #fff; }
 
 .table > thead > tr > th,
 .table > tbody > tr > th,
@@ -593,7 +594,8 @@ textarea::-webkit-input-placeholder {
 .p20bs {
   padding: 19px;
   border: 1px solid #e0e0e0;
-  box-shadow: 0 0 2px 1px #efefef; }
+  box-shadow: 0 0 2px 1px #efefef;
+  background: #fff; }
 
 .highCor, .lowCor, .midCor {
   color: #fff; }
@@ -657,6 +659,7 @@ textarea::-webkit-input-placeholder {
   color: #29aadf; }
 
 .footer {
+  margin-top: 30px;
   padding: 10px 0;
   background: #5D5D5D;
   color: #ddd; }
