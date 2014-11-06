@@ -71,15 +71,18 @@
                         <dt>剩余金额（元）</dt>
                         <dd>￥7,200</dd>
                     </dl>
-                    <p class="mt30 text-right"><span class="fl">账户余额&nbsp;&nbsp;&nbsp;&nbsp;0.00元 </span><a class="themeCor" href="">充值</a></p>
+                    <p class="mt10 text-right"><span class="fl">账户余额&nbsp;&nbsp;&nbsp;&nbsp;0.00元 </span><a class="themeCor" href="">充值</a></p>
                     <form class="posr" action="">
-                        <div class="hasHint">
+                        <div class="hasHint mt10">
                             <p class="inputHint">
                                 输入金额需为50元的整数倍
                             </p>
-                            <input class="loan mt10 mb20 hintInput" type="text" />
+                            <input class="loan hintInput" type="text" />
+                            <p class="error" style="visibility: hidden;">
+                                输入金额需为50元的整数倍
+                            </p>
                         </div>
-                        <button class="loanSubmit btn btn-primary">投标</button>
+                        <button class="loanSubmit btn btn-primary mt10">投标</button>
                     </form>
                 </div>
             </div>

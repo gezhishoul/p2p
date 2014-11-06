@@ -27,22 +27,39 @@ seajs.use('$',function(){
         });
     };
     //input hint
-    if(".inputHint"){
-        $(".inputHint").click(function(){
-            $(this).hide();
-            $(".hintInput").focus();
-        });
-        $(".hintInput").click(function(){
-            $(".inputHint").trigger("click");
-        });
-        $("body").click(function(){
-            if($(this).closest(".hasHint").length == 0){
-                console.log(111)
-                $(".inputHint").show();
-            }else{
-                console.log(222)
-                $(".inputHint").hide();
-            }
-        })
+    var hint = function(){
+        $(".inputHint").hide();
+        $(".hintInput").focus();
     }
+
+    var moneyFormat = function(obj){
+        if(obj.val() % 50 != 0){
+            obj.addClass("error");
+            obj.siblings(".error").css("visibility","visible");
+        }else{
+            obj.removeClass("error");
+            obj.siblings(".error").css("visibility","hidden");
+        }
+    };
+    if(".inputHint"){
+
+        var hintInput = $(".hintInput");
+        hintInput.blur(function(){
+            moneyFormat($(this));
+        });
+
+        $("body").click(function(e){
+            var target = e.target || e.srcElement;
+            if($(target).closest(".hasHint").length > 0){
+                hint();
+            }else if($(target).closest(".hasHint").length == 0 && (hintInput.val() == "" || hintInput.val() == null)){
+                $(".inputHint").show();
+            }
+        });
+
+
+
+    };
+
+
 });

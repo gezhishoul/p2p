@@ -185,3 +185,7 @@
 .customerInfo li .customerInfoValue {
   width: 150px;
 }
+
+.hasHint .error {
+  color: #a94442;
+}
