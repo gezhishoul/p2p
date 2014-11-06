@@ -652,7 +652,7 @@ em {
 }
 
 .container {
-  width: 980px;
+  width: 1080px;
   margin: 0 auto;
 }
 
@@ -984,6 +984,10 @@ input:focus {
   background: #29aadf;
 }
 
+.indexList {
+  width: 780px;
+}
+
 .loanList .listTitle {
   font-size: 20px;
   color: #555;
@@ -997,7 +1001,6 @@ input:focus {
   height: 36px;
   line-height: 36px;
   font-size: 16px;
-  font-style: normal;
   text-align: center;
 }
 
@@ -1006,6 +1009,10 @@ input:focus {
 }
 .loanList tfoot a:hover {
   color: #29aadf;
+}
+
+.tabsTitle {
+  height: 42px;
 }
 
 .loanOwner .tabsTitle li, .loanList .tabsTitle li {
@@ -1063,7 +1070,7 @@ input:focus {
 }
 
 .indexSide {
-  width: 300px;
+  width: 280px;
 }
 
 .progressValue {
@@ -1081,6 +1088,7 @@ input:focus {
 }
 
 .loanListMenu {
+  overflow: hidden;
   border-bottom: 1px solid #e2e2e2;
 }
 
@@ -1110,6 +1118,42 @@ input:focus {
 .loanListInfo dd b {
   margin-right: 5px;
   font-size: 26px;
+}
+
+.loanProgress {
+  width: 300px;
+}
+
+.loanListInfo .purchase {
+  float: right;
+  border-right: none;
+}
+
+.loanListInfo .purchase a {
+  padding: 10px 36px;
+}
+
+.loanMore a {
+  color: #a9a9a9;
+  font-size: 16px;
+}
+.loanMore a:hover {
+  color: #29aadf;
+}
+
+.indexSide dl {
+  border: 1px solid #e1e2e2;
+}
+
+.indexSide dt {
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.indexSide dd {
+  padding: 10px 20px;
 }
 
 .proTypeContent .proList {

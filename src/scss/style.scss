@@ -114,7 +114,9 @@
   background: $themeColor;
 }
 //list
-
+.indexList{
+  width: 780px;
+}
 .loanList .listTitle{
   font-size: 20px;
   color: #555;
@@ -127,7 +129,6 @@
   height: 36px;
   line-height: 36px;
   font-size: 16px;
-  font-style: normal;
   text-align: center;
 }
 .loanList tfoot a{
@@ -136,7 +137,9 @@
     color: $themeColor;
   }
 }
-
+.tabsTitle{
+  height: 42px;
+}
 .loanOwner .tabsTitle li,.loanList .tabsTitle li{
   position: relative;
   top: 1px;
@@ -186,7 +189,7 @@
   cursor: default;
 }
 .indexSide{
-  width: 300px;
+  width: 280px;
 }
 .progressValue{
   width: 60px;
@@ -201,6 +204,7 @@
   width: 200px;
 }
 .loanListMenu{
+  overflow: hidden;
   border-bottom: 1px solid #e2e2e2;
 }
 .loanListInfo dl{
@@ -227,6 +231,38 @@
   margin-right: 5px;
   font-size: 26px;
 }
+.loanProgress{
+  width: 300px;
+}
+.loanListInfo .purchase{
+  float: right;
+  border-right: none;
+}
+.loanListInfo .purchase a{
+  padding: 10px 36px;
+}
+.loanMore a{
+  color: #a9a9a9;
+  font-size: 16px;
+  &:hover{
+    color: $themeColor;
+  }
+}
+
+//index side
+.indexSide dl{
+  border: 1px solid #e1e2e2;
+}
+.indexSide dt{
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  border-bottom: 1px solid #e7e7e7;
+}
+.indexSide dd{
+  padding: 10px 20px;
+}
+
 //invest borrow type
 .proTypeContent .proList{
   width: 300px;

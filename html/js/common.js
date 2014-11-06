@@ -30,7 +30,7 @@ seajs.use('$',function(){
     var hint = function(){
         $(".inputHint").hide();
         $(".hintInput").focus();
-    }
+    };
 
     var moneyFormat = function(obj){
         if(obj.val() % 50 != 0){
