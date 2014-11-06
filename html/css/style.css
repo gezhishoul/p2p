@@ -464,6 +464,10 @@ textarea::-webkit-input-placeholder {
   color: #ccc;
 }
 
+em {
+  font-style: normal;
+}
+
 .table {
   width: 100%;
   max-width: 100%;
@@ -622,7 +626,7 @@ textarea::-webkit-input-placeholder {
 }
 
 .progress {
-  height: 20px;
+  height: 18px;
   margin-bottom: 20px;
   overflow: hidden;
   background-color: #f5f5f5;
@@ -757,8 +761,12 @@ input:focus {
   color: #29aadf;
 }
 
+.danger {
+  color: #ea544a;
+}
+
 .highCor {
-  background: #8ab46e;
+  background: #18b160;
 }
 
 .lowCor {
@@ -945,6 +953,7 @@ input:focus {
 .banner, .banner li {
   height: 365px;
   width: 100%;
+  overflow: hidden;
 }
 
 .banner img {
@@ -975,18 +984,14 @@ input:focus {
   background: #29aadf;
 }
 
-.loanList td {
-  line-height: 36px !important;
-}
-
-.loanList .listTitle, .newsList .listTitle {
+.loanList .listTitle {
   font-size: 20px;
   color: #555;
 }
 
 .loanList .creditLel {
   display: block;
-  margin: 0 auto;
+  margin-top: 8px;
   border-radius: 18px;
   width: 36px;
   height: 36px;
@@ -1003,12 +1008,108 @@ input:focus {
   color: #29aadf;
 }
 
-.newsList table {
-  text-align: left;
+.loanOwner .tabsTitle li, .loanList .tabsTitle li {
+  position: relative;
+  top: 1px;
+  float: left;
+  height: 38px;
+  line-height: 38px;
+  padding: 0 35px;
+  border: 0;
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+  cursor: pointer;
+  border-left: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  border-top: 4px solid #f2f2f2;
+}
+.loanOwner .tabsTitle li:hover, .loanList .tabsTitle li:hover {
+  color: #474747;
+  border-top-color: #29aadf;
 }
 
-.newsList .text-right {
-  text-align: right;
+.loanList .tabsTitle li {
+  border-color: #fff;
+  font-weight: 600;
+}
+
+.loanListTitle a {
+  font-size: 16px;
+}
+
+.loanOwner li.active, .loanList li.active {
+  background: #fff;
+  border-top: 4px solid #29aadf;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  color: #474747;
+  cursor: default;
+}
+
+.loanOwner .tabContent, .loanList .tabContent {
+  padding: 30px 35px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+}
+
+.loanListTitle em {
+  margin: 13px 3px 13px 8px;
+  padding: 2px 4px;
+  color: #fff;
+  background: #29aadf;
+  border-radius: 3px;
+  cursor: default;
+}
+
+.indexSide {
+  width: 300px;
+}
+
+.progressValue {
+  width: 60px;
+  margin: 0 10px;
+  height: 18px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.loanListTitle .progress {
+  width: 200px;
+}
+
+.loanListMenu {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.loanListInfo dl {
+  float: left;
+  width: 116px;
+  padding-left: 18px;
+  border-right: 1px dashed #e2e2e2;
+}
+
+.loanListInfo dt {
+  color: #5e5e5e;
+  font-size: 12px;
+}
+
+.loanListInfo dd {
+  height: 58px;
+  line-height: 58px;
+  overflow: hidden;
+}
+
+.loanListInfo dd .danger {
+  margin-right: 5px;
+  font-size: 38px;
+}
+
+.loanListInfo dd b {
+  margin-right: 5px;
+  font-size: 26px;
 }
 
 .proTypeContent .proList {

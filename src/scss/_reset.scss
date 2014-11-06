@@ -565,7 +565,9 @@ h5,h6 {
     }
   }
 }
-
+em{
+  font-style: normal;
+}
 .table {
   width: 100%;
   max-width: 100%;
@@ -691,7 +693,7 @@ h5,h6 {
   background-color: #fff;
 }
 .progress {
-  height: 20px;
+  height: 18px;
   margin-bottom: 20px;
   overflow: hidden;
   background-color: #f5f5f5;
@@ -798,8 +800,11 @@ input:focus{
 .themeCor{
   color: $themeColor;
 }
+.danger{
+  color: #ea544a;
+}
 .highCor{
-  background: #8ab46e;
+  background: #18b160;
 }
 .lowCor{
   background: #f01f5a;

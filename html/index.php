@@ -27,85 +27,95 @@
                 <a href="#"></a>
             </div>
         </div>
-        <div class="loanList container mt10">
-            <div class="listTitle">
-                投资列表
-            </div>
-            <table class="table table-larger table-hover">
-                <thead>
-                <tr>
-                    <th>借款标题</th>
-                    <th>信用等级</th>
-                    <th>年利率</th>
-                    <th>金额</th>
-                    <th>期限</th>
-                    <th>进度</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody>
-                <tr>
-                    <td><a href="#">资金周转</a></td>
-                    <td><span class="creditLel highCor">A</span></td>
-                    <td>10.00%</td>
-                    <td>30,000元</td>
-                    <td>3个月</td>
-                    <td>100%</td>
-                    <td><a class="themeBtn" href="#">投标</a></td>
-                </tr>
-                <tr>
-                    <td><a href="#">资金周转</a></td>
-                    <td><span class="creditLel lowCor">E</span></td>
-                    <td>10.00%</td>
-                    <td>30,000元</td>
-                    <td>3个月</td>
-                    <td>100%</td>
-                    <td>已满标</td>
-                </tr>
-                <tr>
-                    <td><a href="#">资金周转</a></td>
-                    <td><span class="creditLel midCor">C</span></td>
-                    <td>10.00%</td>
-                    <td>30,000元</td>
-                    <td>3个月</td>
-                    <td>100%</td>
-                    <td>还款中</td>
-                </tr>
-                </tbody>
-                <tfoot>
-                <tr>
-                    <td colspan="7">
-                        <a href="#">查看更多投资理财项目</a>
-                    </td>
-                </tr>
-                </tfoot>
-            </table>
+        <div class="fr indexSide">
+
         </div>
-        <div class="newsList container mt10">
-            <div class="listTitle">
-                最新动态
+        <div class="loanList container mt10 tabs">
+            <ul class="tabsTitle clearFix">
+                <li class="active">进行中的流转标</li>
+                <li>进行中的普通标</li>
+            </ul>
+            <div class="tabContent">
+                <div class="tabPane">
+                    <ul class="loanListMenu mb20">
+                        <li>
+                            <div class="loanListTitle clearFix">
+                                <div class="fr">
+                                    <div class="progress fl">
+                                        <div class="progress-bar highCor" style="width: 80%;"></div>
+                                    </div>
+                                    <div class="progressValue highCor fl">
+                                        80%
+                                    </div>
+                                </div>
+                                <em>信</em><a href="">家庭装修个人消费</a>
+                            </div>
+                        </li>
+                        <li class="loanListInfo mt10 clearFix">
+                            <dl>
+                                <dt>年化收益率</dt>
+                                <dd><b class="danger">12</b>%</dd>
+                            </dl>
+                            <dl>
+                                <dt>期限</dt>
+                                <dd><b>6</b>个月</dd>
+                            </dl>
+                            <dl>
+                                <dt>金额</dt>
+                                <dd><b>30,000</b>元</dd>
+                            </dl>
+                            <dl>
+                                <dt>信用等级</dt>
+                                <dd><div class="creditLel highCor">A</div></dd>
+                            </dl>
+                            <dl class="fr">
+                                <dd></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                    <ul class="loanListMenu mb20">
+                        <li>
+                            <div class="loanListTitle clearFix">
+                                <div class="fr">
+                                    <div class="progress fl">
+                                        <div class="progress-bar highCor" style="width: 80%;"></div>
+                                    </div>
+                                    <div class="progressValue highCor fl">
+                                        80%
+                                    </div>
+                                </div>
+                                <em>信</em><a href="">家庭装修个人消费</a>
+                            </div>
+                        </li>
+                        <li class="loanListInfo mt10 clearFix">
+                            <dl>
+                                <dt>年化收益率</dt>
+                                <dd><b class="danger">12</b>%</dd>
+                            </dl>
+                            <dl>
+                                <dt>期限</dt>
+                                <dd><b>6</b>个月</dd>
+                            </dl>
+                            <dl>
+                                <dt>金额</dt>
+                                <dd><b>30,000</b>元</dd>
+                            </dl>
+                            <dl>
+                                <dt>信用等级</dt>
+                                <dd><div class="creditLel highCor">A</div></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tabPane disn">
+
+                </div>
             </div>
-            <table class="table table-larger table-hover">
-                <tbody>
-                <tr>
-                    <td><a href="#">中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</a></td>
-                    <td class="text-right">2014-09-22</td>
-                </tr>
-                <tr>
-                    <td><a href="#">中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</a></td>
-                    <td class="text-right">2014-09-22</td>
-                </tr>
-                <tr>
-                    <td><a href="#">中国小额信贷机构联席会理事会首迎P2P 人人贷实至名归</a></td>
-                    <td class="text-right">2014-09-22</td>
-                </tr>
-                </tbody>
-            </table>
         </div>
     </div>
     <?php include 'footer.php' ?>
     <script type="text/javascript">
-        seajs.use(['$','xslider'],function(){
+        seajs.use('xslider',function(){
             $("#banner").Xslider({
                 space: 4000,
                 conbox: '.slides',

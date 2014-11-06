@@ -102,48 +102,14 @@
 .loanDate .progress {
   width: 190px; }
 
-.progressValue {
-  width: 60px;
-  margin: 0 10px;
-  text-align: center;
-  color: #fff;
-  border-radius: 50%; }
-
 .loanDate .timeLeft {
   height: 20px;
   line-height: 16px; }
-
-.loanOwner .tabsTitle li {
-  position: relative;
-  top: 1px;
-  width: 90px;
-  float: left;
-  height: 38px;
-  line-height: 38px;
-  padding: 0 35px;
-  border: 0;
-  font-size: 16px;
-  color: #999;
-  text-align: center;
-  cursor: pointer; }
 
 .customerInfo li {
   float: left;
   width: 250px;
   margin-top: 10px; }
-
-.loanOwner li.active {
-  background: #fff;
-  border-top: 4px solid #29aadf;
-  border-left: 1px solid #e0e0e0;
-  border-right: 1px solid #e0e0e0;
-  color: #474747;
-  cursor: default; }
-
-.loanOwner .tabContent {
-  padding: 30px 35px;
-  background: #fff;
-  border: 1px solid #e0e0e0; }
 
 .customerInfo ul {
   margin-left: 90px; }
