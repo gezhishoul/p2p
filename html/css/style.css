@@ -1156,6 +1156,79 @@ input:focus {
   padding: 10px 20px;
 }
 
+.news dt a {
+  font-size: 12px;
+}
+
+.indexSide .scrollInvest {
+  padding-top: 0;
+  height: 202px;
+  overflow: hidden;
+}
+
+.scrollInvest li {
+  padding-top: 10px;
+}
+
+.latestInvest .time {
+  float: left;
+  width: 70px;
+  color: #999;
+  font-size: 12px;
+  height: 42px;
+  line-height: 42px;
+}
+
+.latestInvest .detail {
+  float: left;
+  width: 162px;
+  height: 42px;
+}
+
+.latestInvest .detail .name {
+  color: #999;
+  font-size: 12px;
+}
+
+.investBoard li {
+  margin-top: 4px;
+}
+
+.investBoard span {
+  float: left;
+  width: 25px;
+  margin-right: 10px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  background-color: #c2c2c2;
+  border-radius: 5px;
+}
+
+.investBoard .top {
+  background-color: #18b160;
+}
+
+.investBoard b {
+  float: left;
+  width: 90px;
+  margin-right: 10px;
+  color: #525252;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+}
+
+.investBoard em {
+  float: left;
+  color: #7d7d7d;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 30px;
+}
+
 .proTypeContent .proList {
   width: 300px;
   height: 400px;

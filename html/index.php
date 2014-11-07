@@ -33,10 +33,103 @@
                     <dt>APP</dt>
                     <dd><a href=""><img src="https://www.qian360.com/themes/soonmes_qzw_v2/image/home_product_app.png" alt=""/></a></dd>
                 </dl>
-                <dl class="mt10">
-                    <dt>官方公告</dt>
+                <dl class="news mt10">
+                    <dt class="clearFix"><a class="fr" href="">更多 ></a><h3>官方公告</h3> </dt>
                     <dd>
-
+                        <ul>
+                            <li><a href="">项目详情页改版公告</a></li>
+                            <li><a href="">项目详情页改版公告</a></li>
+                            <li><a href="">项目详情页改版公告</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="latestInvest mt10">
+                    <dt>最新投资</dt>
+                    <dd class="scrollInvest">
+                        <ul>
+                            <li class="clearFix">
+                                <div class="time">10个小时前</div>
+                                <div class="detail">
+                                    <span class="name">xxx 投资</span>
+                                    <a href="">家庭装修个人消费</a>
+                                    <span class="danger">¥20000</span>
+                                </div>
+                            </li>
+                            <li class="clearFix">
+                                <div class="time">10个小时前</div>
+                                <div class="detail">
+                                    <span class="name">xxx 投资</span>
+                                    <a href="">家庭装修个人消费</a>
+                                    <span class="danger">¥20000</span>
+                                </div>
+                            </li>
+                            <li class="clearFix">
+                                <div class="time">10个小时前</div>
+                                <div class="detail">
+                                    <span class="name">xxx 投资</span>
+                                    <a href="">家庭装修个人消费</a>
+                                    <span class="danger">¥20000</span>
+                                </div>
+                            </li>
+                            <li class="clearFix">
+                                <div class="time">10个小时前</div>
+                                <div class="detail">
+                                    <span class="name">xxx 投资</span>
+                                    <a href="">家庭装修个人消费</a>
+                                    <span class="danger">¥20000</span>
+                                </div>
+                            </li>
+                            <li class="clearFix">
+                                <div class="time">10个小时前</div>
+                                <div class="detail">
+                                    <span class="name">xxx 投资</span>
+                                    <a href="">家庭装修个人消费</a>
+                                    <span class="danger">¥20000</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="mt10r">
+                    <dt>理财风云榜</dt>
+                    <dd class="investBoard">
+                        <ul>
+                            <li class="clearFix">
+                                <span class="top">1</span>
+                                <b>xxx</b>
+                                <em>￥4300556.78</em>
+                            </li>
+                            <li class="clearFix">
+                                <span class="top">2</span>
+                                <b>xxx</b>
+                                <em>￥4300556.78</em>
+                            </li>
+                            <li class="clearFix">
+                                <span class="top">2</span>
+                                <b>xxx</b>
+                                <em>￥4300556.78</em>
+                            </li>
+                            <li class="clearFix">
+                                <span>4</span>
+                                <b>xxx</b>
+                                <em>￥4300556.78</em>
+                            </li>
+                            <li class="clearFix">
+                                <span>5</span>
+                                <b>xxx</b>
+                                <em>￥4300556.78</em>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="news mt10">
+                    <dt class="clearFix"><a class="fr" href="">更多 ></a><h3>媒体报道</h3> </dt>
+                    <dd>
+                        <ul>
+                            <li><a href="">项目详情页改版公告</a></li>
+                            <li><a href="">项目详情页改版公告</a></li>
+                            <li><a href="">项目详情页改版公告</a></li>
+                        </ul>
                     </dd>
                 </dl>
             </div>
@@ -132,13 +225,22 @@
     </div>
     <?php include 'footer.php' ?>
     <script type="text/javascript">
-        seajs.use('xslider',function(){
+        seajs.use(['xslider','easing','easy'],function(){
             $("#banner").Xslider({
                 space: 4000,
                 conbox: '.slides',
                 affect:'fade',
                 ctag: 'li',
                 current:'active'
+            });
+            $('.scrollInvest').easyTicker({
+                direction: 'up',
+                easing: 'swing',
+                speed: 'slow',
+                interval: 3000,
+                height: '202px',
+                visible: 0,
+                mousePause: 1
             });
         })
     </script>
