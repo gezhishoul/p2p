@@ -2,16 +2,9 @@
  * Created by ryan on 11/3/14.
  */
 
-seajs.config({
-    base: "./js/",
-    alias: {
-        "$": "jquery-1.11.1.min.js",
-        "xslider":"jquery.Xslider.js",
-        "easing":"jquery.easing.min.js",
-        "easy":"jquery.easy-ticker.min.js"
-    }
-});
-seajs.use('$',function(){
+
+define(function(require, exports, module) {
+    require('jQuery');
     //dropdown
     $(".dropdown").hover(function(){
         $(this).addClass("open");
@@ -20,12 +13,14 @@ seajs.use('$',function(){
     });
     //tabs
     if($(".tabs").length > 0){
-        $(".tabsTitle li").click(function(){
+        $(".tabsTitle li").hover(function(){
             $(this).addClass("active");
             $(this).siblings("li").removeClass("active");
             var toOperate = $(".tabPane").eq($(this).index());
             toOperate.removeClass("disn");
             toOperate.siblings(".tabPane").addClass("disn");
+        },function(){
+
         });
     };
     //input hint

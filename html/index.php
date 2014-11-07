@@ -90,7 +90,7 @@
                         </ul>
                     </dd>
                 </dl>
-                <dl class="mt10r">
+                <dl class="mt10">
                     <dt>理财风云榜</dt>
                     <dd class="investBoard">
                         <ul>
@@ -212,6 +212,150 @@
                                 </dl>
                             </li>
                         </ul>
+                        <ul class="loanListMenu mb20">
+                            <li>
+                                <div class="loanListTitle clearFix">
+                                    <div class="fr loanProgress">
+                                        <div class="progress fl">
+                                            <div class="progress-bar highCor" style="width: 80%;"></div>
+                                        </div>
+                                        <div class="progressValue highCor fl">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <em>信</em><a href="">家庭装修个人消费</a>
+                                </div>
+                            </li>
+                            <li class="loanListInfo mt10 clearFix">
+                                <dl>
+                                    <dt>年化收益率</dt>
+                                    <dd><b class="danger">12</b>%</dd>
+                                </dl>
+                                <dl>
+                                    <dt>期限</dt>
+                                    <dd><b>6</b>个月</dd>
+                                </dl>
+                                <dl>
+                                    <dt>金额</dt>
+                                    <dd><b>30,000</b>元</dd>
+                                </dl>
+                                <dl>
+                                    <dt>信用等级</dt>
+                                    <dd><div class="creditLel highCor">A</div></dd>
+                                </dl>
+                                <dl class="purchase">
+                                    <dd><a class="themeBtn" href="">投标</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <ul class="loanListMenu mb20">
+                            <li>
+                                <div class="loanListTitle clearFix">
+                                    <div class="fr loanProgress">
+                                        <div class="progress fl">
+                                            <div class="progress-bar highCor" style="width: 80%;"></div>
+                                        </div>
+                                        <div class="progressValue highCor fl">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <em>信</em><a href="">家庭装修个人消费</a>
+                                </div>
+                            </li>
+                            <li class="loanListInfo mt10 clearFix">
+                                <dl>
+                                    <dt>年化收益率</dt>
+                                    <dd><b class="danger">12</b>%</dd>
+                                </dl>
+                                <dl>
+                                    <dt>期限</dt>
+                                    <dd><b>6</b>个月</dd>
+                                </dl>
+                                <dl>
+                                    <dt>金额</dt>
+                                    <dd><b>30,000</b>元</dd>
+                                </dl>
+                                <dl>
+                                    <dt>信用等级</dt>
+                                    <dd><div class="creditLel highCor">A</div></dd>
+                                </dl>
+                                <dl class="purchase">
+                                    <dd><a class="themeBtn" href="">投标</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <ul class="loanListMenu mb20">
+                            <li>
+                                <div class="loanListTitle clearFix">
+                                    <div class="fr loanProgress">
+                                        <div class="progress fl">
+                                            <div class="progress-bar highCor" style="width: 80%;"></div>
+                                        </div>
+                                        <div class="progressValue highCor fl">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <em>信</em><a href="">家庭装修个人消费</a>
+                                </div>
+                            </li>
+                            <li class="loanListInfo mt10 clearFix">
+                                <dl>
+                                    <dt>年化收益率</dt>
+                                    <dd><b class="danger">12</b>%</dd>
+                                </dl>
+                                <dl>
+                                    <dt>期限</dt>
+                                    <dd><b>6</b>个月</dd>
+                                </dl>
+                                <dl>
+                                    <dt>金额</dt>
+                                    <dd><b>30,000</b>元</dd>
+                                </dl>
+                                <dl>
+                                    <dt>信用等级</dt>
+                                    <dd><div class="creditLel highCor">A</div></dd>
+                                </dl>
+                                <dl class="purchase">
+                                    <dd><a class="themeBtn" href="">投标</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <ul class="loanListMenu mb20">
+                            <li>
+                                <div class="loanListTitle clearFix">
+                                    <div class="fr loanProgress">
+                                        <div class="progress fl">
+                                            <div class="progress-bar highCor" style="width: 80%;"></div>
+                                        </div>
+                                        <div class="progressValue highCor fl">
+                                            80%
+                                        </div>
+                                    </div>
+                                    <em>信</em><a href="">家庭装修个人消费</a>
+                                </div>
+                            </li>
+                            <li class="loanListInfo mt10 clearFix">
+                                <dl>
+                                    <dt>年化收益率</dt>
+                                    <dd><b class="danger">12</b>%</dd>
+                                </dl>
+                                <dl>
+                                    <dt>期限</dt>
+                                    <dd><b>6</b>个月</dd>
+                                </dl>
+                                <dl>
+                                    <dt>金额</dt>
+                                    <dd><b>30,000</b>元</dd>
+                                </dl>
+                                <dl>
+                                    <dt>信用等级</dt>
+                                    <dd><div class="creditLel highCor">A</div></dd>
+                                </dl>
+                                <dl class="purchase">
+                                    <dd><a class="themeBtn" href="">投标</a></dd>
+                                </dl>
+                            </li>
+                        </ul>
                         <ul class="loanMore">
                             <li class="text-center"><a href="">查看更多投资理财项目</a></li>
                         </ul>
@@ -225,24 +369,7 @@
     </div>
     <?php include 'footer.php' ?>
     <script type="text/javascript">
-        seajs.use(['xslider','easing','easy'],function(){
-            $("#banner").Xslider({
-                space: 4000,
-                conbox: '.slides',
-                affect:'fade',
-                ctag: 'li',
-                current:'active'
-            });
-            $('.scrollInvest').easyTicker({
-                direction: 'up',
-                easing: 'swing',
-                speed: 'slow',
-                interval: 3000,
-                height: '202px',
-                visible: 0,
-                mousePause: 1
-            });
-        })
+        seajs.use('index');
     </script>
 </body>
 </html>

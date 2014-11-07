@@ -22,4 +22,4 @@
     <p class="text-center">© 2014 xxx All rights reserved</p>
 </div>
 <script src="js/sea.js" type="text/javascript"></script>
-<script src="js/common.js" type="text/javascript"></script>
+<script src="js/config.js" type="text/javascript"></script>

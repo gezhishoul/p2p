@@ -764,8 +764,8 @@ input:focus {
 .logo {
   display: block;
   height: 72px;
-  width: 140px;
-  background: url(http://www.renrendai.com/static/img/logo.png?v=f3810) no-repeat 0 center; }
+  width: 230px;
+  background: url(http://www.zlccf.com/UF/Uploads/Article/20140926110739.png) no-repeat 0 center; }
 
 .nav > li {
   float: left; }
@@ -881,7 +881,6 @@ input:focus {
   font-size: 16px;
   color: #999;
   text-align: center;
-  cursor: pointer;
   border-left: 1px solid #f2f2f2;
   border-right: 1px solid #f2f2f2;
   border-top: 4px solid #f2f2f2; }
@@ -902,7 +901,7 @@ input:focus {
   border-left: 1px solid #e0e0e0;
   border-right: 1px solid #e0e0e0;
   color: #474747;
-  cursor: default; }
+  cursor: pointer; }
 
 .loanOwner .tabContent, .loanList .tabContent {
   padding: 30px 35px;
@@ -982,6 +981,7 @@ input:focus {
   height: 40px;
   line-height: 40px;
   padding: 0 20px;
+  margin-bottom: 10px;
   border-bottom: 1px solid #e7e7e7; }
 
 .indexSide dd {
@@ -995,8 +995,13 @@ input:focus {
   height: 202px;
   overflow: hidden; }
 
+.scrollInvest dd {
+  position: relative;
+  top: 10px;
+  overflow: hidden; }
+
 .scrollInvest li {
-  padding-top: 10px; }
+  padding-bottom: 10px; }
 
 .latestInvest .time {
   float: left;
