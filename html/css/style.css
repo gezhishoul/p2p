@@ -885,7 +885,7 @@ input:focus {
   display: block;
   height: 72px;
   width: 230px;
-  background: url(http://www.zlccf.com/UF/Uploads/Article/20140926110739.png) no-repeat 0 center;
+  background: url(../images/logo.png) no-repeat 0 center;
 }
 
 .nav > li {

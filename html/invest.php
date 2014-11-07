@@ -65,7 +65,7 @@
                 <tbody>
                 <tr>
                     <td><a href="#">资金周转</a></td>
-                    <td><span class="creditLel highCor">A</span></td>
+                    <td class="text-center"><span class="creditLel highCor">A</span></td>
                     <td>10.00%</td>
                     <td>30,000元</td>
                     <td>3个月</td>
