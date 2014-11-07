@@ -30,11 +30,11 @@
         <div class="container clearFix">
             <div class="indexSide fr mt10">
                 <dl>
-                    <dt>APP</dt>
+                    <dt><span class="iconfont">&#xe61f;</span>APP</dt>
                     <dd><a href=""><img src="https://www.qian360.com/themes/soonmes_qzw_v2/image/home_product_app.png" alt=""/></a></dd>
                 </dl>
                 <dl class="news mt10">
-                    <dt class="clearFix"><a class="fr" href="">更多 ></a><h3>官方公告</h3> </dt>
+                    <dt class="clearFix"><span class="iconfont">&#xe61e;</span><a class="fr" href="">更多 ></a><h3>官方公告</h3> </dt>
                     <dd>
                         <ul>
                             <li><a href="">项目详情页改版公告</a></li>
@@ -44,7 +44,7 @@
                     </dd>
                 </dl>
                 <dl class="latestInvest mt10">
-                    <dt>最新投资</dt>
+                    <dt><span class="iconfont">&#xe61d;</span>最新投资</dt>
                     <dd class="scrollInvest">
                         <ul>
                             <li class="clearFix">
@@ -91,7 +91,7 @@
                     </dd>
                 </dl>
                 <dl class="mt10">
-                    <dt>理财风云榜</dt>
+                    <dt><span class="iconfont">&#xe61c;</span>理财风云榜</dt>
                     <dd class="investBoard">
                         <ul>
                             <li class="clearFix">
@@ -122,8 +122,8 @@
                         </ul>
                     </dd>
                 </dl>
-                <dl class="news mt10">
-                    <dt class="clearFix"><a class="fr" href="">更多 ></a><h3>媒体报道</h3> </dt>
+                <dl class="news newsMedia mt10">
+                    <dt class="clearFix"><span class="iconfont">&#xe620;</span><a class="fr" href="">更多 ></a><h3>媒体报道</h3> </dt>
                     <dd>
                         <ul>
                             <li><a href="">项目详情页改版公告</a></li>
@@ -135,8 +135,8 @@
             </div>
             <div class="loanList mt10 tabs indexList">
                 <ul class="tabsTitle clearFix">
-                    <li class="active">进行中的流转标</li>
-                    <li>进行中的普通标</li>
+                    <li class="active">进行中的普通标</li>
+                    <li>进行中的流转标</li>
                 </ul>
                 <div class="tabContent">
                     <div class="tabPane">
