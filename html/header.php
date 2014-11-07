@@ -13,19 +13,21 @@
             <ul class="nav fr">
                 <li><a class="active" href="index.php">首页</a></li>
                 <li class="dropdown">
-                    <a href="invest.php">我要理财 <span class="caret"></span></a>
+                    <a href="proType.php">我要理财 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="">way1</a></li>
-                        <li><a href="">way2</a></li>
-                        <li><a href="">way3</a></li>
+                        <li><a href="invest.php">普通标</a></li>
+                        <li><a href="invest.php">流转标</a></li>
+                        <li><a href="invest.php">债权转让</a></li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="">我要借款 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="">way1</a></li>
-                        <li><a href="">way2</a></li>
-                        <li><a href="">way3</a></li>
+                        <li><a href="">发布信用标</a></li>
+                        <li><a href="">发布担保标</a></li>
+                        <li><a href="">发布秒还标</a></li>
+                        <li><a href="">发布净值标</a></li>
+                        <li><a href="">发布抵押标</a></li>
                     </ul>
                 </li>
                 <li><a href="">新手指引</a></li>
