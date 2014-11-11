@@ -16,6 +16,10 @@
   -webkit-text-stroke-width: 0.2px;
   -moz-osx-font-smoothing: grayscale;
 }
+.alert{
+  padding: 15px;
+  color: #a94442;
+}
 // header begin
 .header,.banner{
   -moz-box-shadow: 0 4px 4px rgba(0,0,0,.2);
@@ -147,7 +151,7 @@
 }
 .loanList .creditLel{
   display: block;
-  margin-top: 8px;
+  margin: 8px auto 0 auto;
   border-radius: 18px;
   width: 36px;
   height: 36px;
@@ -373,7 +377,7 @@
 .proTypeContent .proList{
   width: 300px;
   height: 400px;
-  margin-right: 20px;
+  margin: 0 20px 20px 0;
   background-color: #fff;
   border: 1px solid #E0E0E0;
   border-radius: 5px;
@@ -390,8 +394,9 @@
   opacity: .7;
 }
 .proTypeContent .proContent{
-  padding: 20px;
-  padding-top: 10px;
+  height: 200px;
+  padding: 10px 20px 20px 20px;
+  overflow: hidden;
 }
 .proTypeContent .proContent ul{
   height: 108px;

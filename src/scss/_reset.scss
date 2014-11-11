@@ -730,11 +730,18 @@ em{
 .clearFix{
   zoom:1;
 }
+button{
+  outline: none;
+}
 input{
   border: 1px solid #c5c5c5;
 }
 input:focus{
   border-color: $themeColor;
+}
+.w960{
+  width: 960px;
+  margin: 0 auto;
 }
 .disn{
   display: none;

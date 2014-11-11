@@ -1,0 +1,79 @@
+//login
+.loginArea{
+  background: #fff;
+}
+.loginArea form{
+  height: 390px;
+  padding: 0 20px;
+}
+.loginArea .inputItem{
+  position: relative;
+  padding: 0 5px 20px 0;
+}
+.loginArea .inputItem .inputIcon{
+  width: 230px;
+  padding: 10px 5px 10px 50px;
+  color: #595959;
+  background: url(../images/input-icon-all.png) no-repeat 6px -133px;
+}
+.loginArea .inputItem .pwd{
+  background-position: 6px -415px;
+}
+.inputItem .placeHolder{
+  position: absolute;
+  top: 10px;
+  left: 44px;
+  color: #ababab;
+}
+.rememberName{
+  position: relative;
+  top: 2px;
+  *top: -2px;
+}
+.inputItem button{
+  display: block;
+  margin: 0 auto;
+  width: 165px;
+  height: 40px;
+  border-radius: 2px;
+  font-size: 18px;
+  border: none;
+  text-align: center;
+}
+.loginArea .alert{
+  height: 22px;
+}
+
+//register
+.register{
+  background: #fff;
+  margin: 30px auto;
+  padding: 30px;
+}
+.registerArea .inputItem label{
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+  text-align: right;
+  *margin-bottom: 10px;
+}
+.registerArea .inputItem .mobile{
+  background-position: 6px -631px;
+}
+.registerArea .inputItem .email{
+  background-position: 6px 10px;
+}
+.registerArea .registerBottom{
+  padding: 0 5px 20px 164px;
+}
+.registerArea .alert{
+  padding-left: 164px;
+}
+.registerBottom .registerBtn{
+  display: inline-block;
+  margin:0;
+}
+.registerBottom span{
+  color: #999;
+  margin-left: 10px;
+}

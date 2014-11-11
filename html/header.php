@@ -13,7 +13,7 @@
             <ul class="nav fr">
                 <li><a class="active" href="index.php">首页</a></li>
                 <li class="dropdown">
-                    <a href="proType.php">我要理财 <span class="caret"></span></a>
+                    <a href="investType.php">我要理财 <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="invest.php">普通标</a></li>
                         <li><a href="invest.php">流转标</a></li>

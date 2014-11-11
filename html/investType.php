@@ -13,7 +13,7 @@
 <?php include 'header.php' ?>
     <div class="proType container">
         <h1 class="proTypeHeader mt10">
-            产品介绍
+            理财产品介绍
         </h1>
         <div class="proTypeContent clearFix">
             <div class="proList fl">
