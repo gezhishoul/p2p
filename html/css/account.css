@@ -90,3 +90,34 @@
   color: #999;
   margin-left: 10px;
 }
+
+.modal-register {
+  width: 450px;
+  margin: 30px auto;
+}
+
+#registerModal .modal-body input {
+  width: 92px;
+  padding-left: 10px;
+  height: 24px;
+  line-height: 24px;
+  margin: 2px 12px 0 0;
+}
+
+#registerModal .modal-body label {
+  margin-top: 4px;
+}
+
+#registerModal .modal-body .warning {
+  color: #fff;
+}
+
+.idCodeSubmit {
+  display: block;
+  width: 84px;
+  margin: 10px auto;
+}
+
+.modal-register {
+  margin-top: 10%;
+}

@@ -95,22 +95,25 @@ define(function(require, exports, module) {
 
         if($(".registerArea")){
 
-            var nickName = function(obj){
+            var CheckNickName = function(obj){
                 if(obj.val() == "" || obj.val() == null){
                     obj.addClass("error");
-                    $(".registerArea .alert").html("密码不能为空").css("visibility","visible");
+                    $(".registerArea .alert").html("昵称不能为空").css("visibility","visible");
                     return false;
                 }else{
+                    obj.removeClass("error");
                     return true;
                 }
             }
 
-            $(".nickName").blur(function(){
-                nickName($(this));
+            var nickName = $(".nickName");
+            nickName.blur(function(){
+                CheckNickName($(this));
             });
 
-            var confirmPwd = function(obj){
+            var checkConfirmPwd = function(obj){
                 if($(".pwd").val() == obj.val()){
+                    obj.removeClass("error");
                     registerAlert.css("visibility","hidden");
                     return true;
                 }else{
@@ -119,36 +122,89 @@ define(function(require, exports, module) {
                     return false
                 }
             }
-
-            $(".confirmPwd").blur(function(){
-                confirmPwd($(this));
+            var confirmPwd = $(".confirmPwd");
+            confirmPwd.blur(function(){
+                checkConfirmPwd($(this));
             })
 
             var checkMobile = function(obj){
-                if(isMobile(obj) == true){
+                if(isMobile(obj.val()) == true){
+                    obj.removeClass("error");
                     registerAlert.css("visibility","hidden");
+                    return true;
                 }else{
+                    obj.addClass("error");
                     registerAlert.html("请输入正确的手机号码").css("visibility","visible");
+                    return false;
                 }
             }
-
-            $(".mobile").blur(function(){
+            var userMobile = $(".mobile");
+            userMobile.blur(function(){
                 checkMobile($(this));
             })
 
             var checkEmail = function(obj){
-                if(isEmail(obj) == true){
+                if(isEmail(obj.val()) == true){
+                    obj.removeClass("error");
                     registerAlert.css("visibility","hidden");
+                    return true;
                 }else{
+                    obj.addClass("error");
                     registerAlert.html("请输入正确的邮箱地址").css("visibility","visible");
+                    return false;
                 }
             }
 
-            $(".email").blur(function(){
+            var userEmail = $(".email");
+            userEmail.blur(function(){
                 checkEmail($(this));
             })
 
+            if($("#registerBtn")){
+                var registerBtn = $("#registerBtn");
+                require("modal");
+            }
 
+            var countDownNumber = $("#countDown");
+            var idTime = countDownNumber.html();
+
+            var countDown = function(){
+                countDownNumber.html(idTime-1);
+                if(idTime > 0){
+                    return idTime--;
+                }else{
+                    clearInterval(stopCount);
+                    countDownNumber.parent(".mobileSend").removeAttr("disabled");
+                    countDownNumber.html(60);
+                }
+            }
+
+            var stopCount;
+            registerBtn.click(function(){
+               if(CheckNickName(nickName) && pwdValidation($("#pwd")) && checkConfirmPwd(confirmPwd) && checkMobile(userMobile) && checkEmail(userEmail)){
+                   $('#registerModal').modal({
+                       backdrop: 'static'
+                   });
+                stopCount = setInterval(countDown,1000);
+
+               }
+                 return false;
+            });
+
+            $(".mobileSend").click(function(){
+                idTime = 60;
+                $(this).attr("disabled","disabled");
+                stopCount = setInterval(countDown,1000);
+            })
+
+            var idCode = $("#idCode");
+            $("#idCodeSubmit").click(function(){
+                if(idCode.val() != "" && idCode.val() != null){
+                    $("#registerForm").submit();
+                }else{
+                    idCode.addClass("error")
+                }
+            })
 
         }
      });

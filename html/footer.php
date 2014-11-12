@@ -1,3 +1,5 @@
+<div id="push"></div>
+</div>
 <div class="footer">
     <div class="container clearFix">
         <div class="footerInfo fl">
