@@ -25,7 +25,7 @@ define(function(require, exports, module){
         });
 
         var rate = $("#rate");
-        var regNumber = /^[1-2][2-4]$/;
+        var regNumber = /^(1[0-9]|2[0-4])?$/;
         var checkRate = function(){
             if(regNumber.test(rate.val()) == false){
                 rate.addClass("error");
