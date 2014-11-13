@@ -5,7 +5,6 @@
                 <div class="fr">
                     <a class="regLink" href="register.php">注册</a>
                     <a class="loginLink" href="login.php">登录</a>
-                    <a class="helpLink" href="">帮助</a>
                 </div>
             </div>
         </div>
@@ -31,7 +30,7 @@
                             <li><a href="">发布抵押标</a></li>
                         </ul>
                     </li>
-                    <li><a href="">新手指引</a></li>
+                    <li><a href="">帮助中心</a></li>
                     <li><a href="about.php">关于我们</a></li>
                 </ul>
                 <a class="logo" href="index.php" title="首页">

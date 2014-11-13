@@ -49,3 +49,35 @@
 .newsList li a:hover {
   color: #29aadf;
 }
+
+.helpCenter h1 {
+  border-bottom: 1px dashed #e0e0e0;
+}
+
+.helpCenter h3 {
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.helpCenter dl {
+  padding: 10px 0;
+}
+
+.helpCenter dt {
+  cursor: pointer;
+}
+
+.helpCenter dt .caret {
+  margin-right: 10px;
+}
+
+.helpCenter dd {
+  margin-top: 10px;
+  padding: 12px 30px;
+  color: #666;
+  background-color: #f9f9f9;
+}
+
+.caret.upArrow {
+  border-top: 0;
+  border-bottom: 4px solid;
+}
