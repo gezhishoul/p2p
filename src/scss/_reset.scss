@@ -245,6 +245,8 @@ textarea {
  */
 
 button {
+  border: none;
+  outline: none;
   overflow: visible;
 }
 
@@ -567,6 +569,14 @@ h5,h6 {
 }
 em{
   font-style: normal;
+}
+.inputLarge{
+  width: 270px;
+  height: 28px;
+  padding: 4px 6px;
+  line-height: 30px;
+  border: 1px solid #c5c5c5;
+  border-radius: 2px;
 }
 .table {
   width: 100%;

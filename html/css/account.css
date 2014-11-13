@@ -62,14 +62,6 @@
   padding: 30px;
 }
 
-.registerArea .inputItem label {
-  display: inline-block;
-  width: 150px;
-  margin-right: 10px;
-  text-align: right;
-  *margin-bottom: 10px;
-}
-
 .registerArea .inputItem .mobile {
   background-position: 6px -631px;
 }
@@ -125,4 +117,9 @@
 
 .modal-register {
   margin-top: 10%;
+}
+
+.register h1 {
+  padding-left: 118px;
+  border-bottom: 1px solid #e0e0e0;
 }

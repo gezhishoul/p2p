@@ -207,6 +207,8 @@ textarea {
  * Address `overflow` set to `hidden` in IE 8/9/10/11.
  */
 button {
+  border: none;
+  outline: none;
   overflow: visible; }
 
 /**
@@ -417,6 +419,14 @@ textarea::-webkit-input-placeholder {
 
 em {
   font-style: normal; }
+
+.inputLarge {
+  width: 270px;
+  height: 28px;
+  padding: 4px 6px;
+  line-height: 30px;
+  border: 1px solid #c5c5c5;
+  border-radius: 2px; }
 
 .table {
   width: 100%;
@@ -968,6 +978,14 @@ html, body {
     top: 55px;
     z-index: 10; }
 
+input {
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
+
 .footer {
   margin-top: 30px;
   height: 119px;
@@ -992,6 +1010,29 @@ html, body {
 
 .footerUs p {
   margin-top: 6px; }
+
+.uiLabel {
+  display: inline-block;
+  width: 150px;
+  margin-right: 10px;
+  text-align: right;
+  *margin-bottom: 10px; }
+
+.form-control {
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 .patrol {
   background: #fff; }
