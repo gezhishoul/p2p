@@ -21,16 +21,16 @@
                         </ul>
                     </li>
                     <li class="dropdown">
-                        <a href="">我要借款 <span class="caret"></span></a>
+                        <a href="borrowType.php">我要借款 <span class="caret"></span></a>
                         <ul class="dropdown-menu">
-                            <li><a href="">发布信用标</a></li>
-                            <li><a href="">发布担保标</a></li>
-                            <li><a href="">发布秒还标</a></li>
-                            <li><a href="">发布净值标</a></li>
-                            <li><a href="">发布抵押标</a></li>
+                            <li><a href="borrowDetail.php">发布信用标</a></li>
+                            <li><a href="borrowDetail.php">发布担保标</a></li>
+                            <li><a href="borrowDetail.php">发布秒还标</a></li>
+                            <li><a href="borrowDetail.php">发布净值标</a></li>
+                            <li><a href="borrowDetail.php">发布抵押标</a></li>
                         </ul>
                     </li>
-                    <li><a href="">帮助中心</a></li>
+                    <li><a href="help.php">帮助中心</a></li>
                     <li><a href="about.php">关于我们</a></li>
                 </ul>
                 <a class="logo" href="index.php" title="首页">

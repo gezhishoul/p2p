@@ -28,7 +28,7 @@
                     </ul>
                 </div>
                 <div class="proFooter">
-                    <a class="btn themeBtn" href="">去投标</a>
+                    <a class="btn themeBtn" href="invest.php">去投标</a>
                 </div>
             </div>
             <div class="proList fl">
@@ -43,7 +43,7 @@
                     </ul>
                 </div>
                 <div class="proFooter">
-                    <a class="btn themeBtn" href="">去投标</a>
+                    <a class="btn themeBtn" href="invest.php">去投标</a>
                 </div>
             </div>
             <div class="proList fl">
@@ -58,7 +58,7 @@
                     </ul>
                 </div>
                 <div class="proFooter">
-                    <a class="btn themeBtn" href="">去投标</a>
+                    <a class="btn themeBtn" href="invest.php">去投标</a>
                 </div>
             </div>
         </div>
