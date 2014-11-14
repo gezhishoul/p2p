@@ -38,7 +38,7 @@ define(function(require, exports, module) {
             obj.siblings(".error").css("visibility","hidden");
         }
     };
-    if(".inputHint"){
+    if($(".inputHint").length > 0){
 
         var hintInput = $(".hintInput");
         hintInput.blur(function(){
