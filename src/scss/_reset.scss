@@ -802,14 +802,29 @@ input:focus{
 .ml10{
   margin-left: 10px;
 }
+.mr20{
+  margin-right: 20px;
+}
 .p20{
   padding: 20px;
+  background: #fff;
 }
 .p20bs {
   padding: 19px;
   border: 1px solid #e0e0e0;
   box-shadow: 0 0 2px 1px #efefef;
   background: #fff;
+}
+.themeBtn{
+  padding: 6px 20px;
+  color:#fff;
+  background: $themeColor;
+  border-radius: 15px;
+}
+.themeBtn:hover{
+  color:#fff;
+  opacity: 0.8;
+  filter:alpha(opacity=80);
 }
 .highCor,.lowCor,.midCor{
   color: #fff;
@@ -829,27 +844,27 @@ input:focus{
 .midCor{
   background: #fb5a00;
 }
+.warningColor{
+  color: #f0ad4e;
+}
 .warning{
   background: #f0ad4e;
 }
 .success{
   background: #428bca;
 }
+.orangeBack{
+  background: #fffbe2;
+}
+.mr10{
+  margin-right: 10px;
+}
 .info{
   background: #5bc0de;
 }
-.themeBtn{
-  padding: 6px 20px;
-  color:#fff;
-  background: $themeColor;
-  border-radius: 15px;
+.num em{
+  font-size: 18px;
 }
-.themeBtn:hover{
-  color:#fff;
-  opacity: 0.8;
-  filter:alpha(opacity=80);
-}
-
 .caret {
   display: inline-block;
   width: 0;

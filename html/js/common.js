@@ -19,8 +19,6 @@ define(function(require, exports, module) {
             var toOperate = $(".tabPane").eq($(this).index());
             toOperate.removeClass("disn");
             toOperate.siblings(".tabPane").addClass("disn");
-        },function(){
-
         });
     };
     //input hint

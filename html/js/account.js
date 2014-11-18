@@ -90,7 +90,8 @@ define(function(require, exports, module) {
         };
 
         //register
-
+        require("modal");
+        var registerBtn = $("#registerBtn");
         var registerAlert = $(".registerArea .alert");
 
         if($(".registerArea")){
@@ -160,14 +161,12 @@ define(function(require, exports, module) {
                 checkEmail($(this));
             })
 
-            if($("#registerBtn")){
-                var registerBtn = $("#registerBtn");
-                require("modal");
-            }
+
 
             var countDownNumber = $("#countDown");
             var idTime = countDownNumber.html();
 
+            var stopCount;
             var countDown = function(){
                 countDownNumber.html(idTime-1);
                 if(idTime > 0){
@@ -179,7 +178,6 @@ define(function(require, exports, module) {
                 }
             }
 
-            var stopCount;
             registerBtn.click(function(){
                if(CheckNickName(nickName) && pwdValidation($("#pwd")) && checkConfirmPwd(confirmPwd) && checkMobile(userMobile) && checkEmail(userEmail)){
                    $('#registerModal').modal({
@@ -202,11 +200,22 @@ define(function(require, exports, module) {
                 if(idCode.val() != "" && idCode.val() != null){
                     $("#registerForm").submit();
                 }else{
-                    idCode.addClass("error")
+                    idCode.addClass("error");
                 }
             })
 
         }
      });
+
+    //myAccount
+    if($(".myAccount").length > 0){
+        $(".collapse dt").click(function(){
+            console.log(222)
+            $(this).siblings("dd").toggleClass("disn");
+        });
+
+
+    }
+
 
 });

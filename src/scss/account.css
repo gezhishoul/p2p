@@ -100,4 +100,161 @@
   padding-left: 118px;
   border-bottom: 1px solid #e0e0e0; }
 
+.myAccountCenter {
+  width: 860px;
+  padding: 20px; }
+
+.myAccountSide {
+  width: 160px; }
+
+.myAccountSide dt {
+  background: #ececec;
+  border-bottom: 1px solid #f2f2f2; }
+
+.myAccountSide dt a, .myAccountSide dt span {
+  display: block;
+  padding-left: 20px;
+  height: 50px;
+  line-height: 50px;
+  color: #545454;
+  cursor: pointer; }
+
+.myAccountSide dd a {
+  display: block;
+  margin-left: 10px;
+  padding-left: 30px;
+  height: 36px;
+  line-height: 36px;
+  color: #909090;
+  cursor: pointer;
+  border-bottom: 1px solid #f2f2f2; }
+
+.myAccountSide a.active, .myAccountSide a:hover, .myAccountSide dd span.active, .myAccountSide dt span:hover {
+  color: #fff;
+  background: #2ea7e0; }
+
+.myAccountSide i {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin: 15px 8px 0 0;
+  background: url(../images/sidebarIcons.png) no-repeat 0 0; }
+
+.overview .active i {
+  background-position: -20px 0; }
+
+.financingManagement i {
+  background-position: 0 -20px; }
+
+.financingManagement span:hover i {
+  background-position: -20px -20px; }
+
+.investManagement i {
+  background-position: 0 -40px; }
+
+.investManagement span:hover i {
+  background-position: -20px -40px; }
+
+.borrowManagement i {
+  background-position: 0 -60px; }
+
+.borrowManagement span:hover i {
+  background-position: -20px -60px; }
+
+.accountManagement i {
+  background-position: 0 -80px; }
+
+.accountManagement span:hover i {
+  background-position: -20px -80px; }
+
+.userInfo {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 2px 1px #efefef; }
+
+.portrait {
+  position: absolute;
+  top: -50px;
+  width: 96px;
+  height: 96px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  padding: 2px;
+  background: #fff; }
+
+.userInfoContainer {
+  padding-left: 142px;
+  padding-bottom: 10px; }
+
+.userSecurityContainer {
+  width: 170px;
+  margin-right: 20px; }
+
+.userSecurityContainer .progress {
+  float: none;
+  height: 12px;
+  margin: 5px 0; }
+
+.securityIcon a {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background: url(../images/securityIcons.png) no-repeat -30px -30px; }
+
+.securityIcon .userId {
+  background-position: 0 0; }
+
+.securityIcon .userId.confirmed {
+  background-position: 0 -30px; }
+
+.securityIcon .userCombination {
+  background-position: -90px 0; }
+
+.securityIcon .userCombination.confirmed {
+  background-position: -90px -30px; }
+
+.securityIcon .userEmail {
+  background-position: -60px 0; }
+
+.securityIcon .userEmail.confirmed {
+  background-position: -60px -30px; }
+
+.accountSuper .numberLarge em, .accountSuper .balance {
+  font-size: 18px; }
+
+.superTop .warningColor {
+  display: inline-block;
+  width: 220px; }
+
+.equation {
+  padding: 10px 0 20px; }
+
+.equationList {
+  width: 150px;
+  text-align: center;
+  font-size: 18px;
+  color: #666; }
+  .equationList b {
+    font-size: 18px; }
+
+.equation .symbol {
+  width: 30px;
+  height: 40px;
+  line-height: 80px;
+  margin: 0 10px;
+  font-family: arial;
+  font-size: 32px;
+  text-align: center;
+  color: #666; }
+
+.myInvestList .summaryRight {
+  border-left: 1px solid #e0e0e0;
+  padding-left: 19px;
+  width: 500px; }
+
+.myInvestList .summaryLeft {
+  padding-right: 20px;
+  width: 200px; }
+
 /*# sourceMappingURL=account.css.map */
