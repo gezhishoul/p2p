@@ -256,11 +256,16 @@
 }
 //myInvestList
 .myInvestList .summaryRight{
-  border-left: 1px solid #e0e0e0;
-  padding-left: 19px;
   width: 500px;
+  padding-left: 19px;
+  border-left: 1px solid #e0e0e0;
+  color: #666;
 }
 .myInvestList .summaryLeft{
   padding-right: 20px;
   width: 200px;
+  color: #666;
+}
+.summaryRight .fl{
+  margin-right: 50px;
 }

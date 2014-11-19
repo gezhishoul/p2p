@@ -1,6 +1,6 @@
 <div class="myAccountSide">
     <dl class="overview">
-        <dt><a class="active"><i></i>我的账号</a></dt>
+        <dt><a href="account.php" class="active"><i></i>我的账号</a></dt>
     </dl>
     <dl class="collapse financingManagement">
         <dt><span><i></i>资金管理</span></dt>
