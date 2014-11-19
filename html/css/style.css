@@ -228,7 +228,6 @@ textarea {
 button {
   border: none;
   outline: none;
-  overflow: visible;
 }
 
 /**
@@ -680,16 +679,12 @@ em {
   zoom: 1;
 }
 
-button {
-  outline: none;
-}
-
-input {
-  border: 1px solid #c5c5c5;
-}
-
 input:focus {
   border-color: #29aadf;
+}
+
+.numberLarge em {
+  font-size: 18px;
 }
 
 .w960 {
@@ -716,6 +711,14 @@ input:focus {
 
 .fs18 {
   font-size: 18px;
+}
+
+.fs14 {
+  font-size: 14px;
+}
+
+.curp {
+  cursor: pointer;
 }
 
 .fl {
@@ -782,11 +785,15 @@ input:focus {
   background: #fff;
 }
 
+.inputItem input {
+  padding: 4px 5px;
+}
+
 .themeBtn {
-  padding: 6px 20px;
+  padding: 6px 12px;
   color: #fff;
   background: #29aadf;
-  border-radius: 15px;
+  border-radius: 4px;
 }
 
 .themeBtn:hover {
@@ -814,6 +821,14 @@ hr {
 
 .themeCor {
   color: #29aadf;
+}
+
+.greyBack {
+  background: #dbdbdb;
+}
+
+.cor666 {
+  color: #666;
 }
 
 .danger {
@@ -993,6 +1008,11 @@ hr {
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   background-clip: padding-box;
   outline: 0;
+}
+
+.modal-footer {
+  padding: 15px;
+  border-top: 1px solid #e5e5e5;
 }
 
 .modal-backdrop {
@@ -1181,7 +1201,7 @@ html, body {
   z-index: 10;
 }
 
-input {
+input[type="text"] {
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);

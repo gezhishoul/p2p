@@ -210,10 +210,40 @@ define(function(require, exports, module) {
     //myAccount
     if($(".myAccount").length > 0){
         $(".collapse dt").click(function(){
-            console.log(222)
             $(this).siblings("dd").toggleClass("disn");
         });
+    }
 
+    if($(".charge")){
+        require('modal');
+        var checkChargeMoney = function(obj){
+            if(obj.val() % 1 != 0 || obj.val() < 50){
+                obj.siblings(".danger").removeClass("disn");
+                return false;
+            }else{
+                obj.siblings(".danger").addClass("disn");
+                return true;
+            }
+        };
+
+       var chargeMoney = $("#chargeMoney");
+
+        chargeMoney.blur(function(){
+            checkChargeMoney($(this));
+        });
+
+        $("#chargeBtn").click(function(){
+            if(checkChargeMoney(chargeMoney) == true){
+                $('#chargeModal').modal({
+                    backdrop: 'static'
+                });
+            }else{
+                return false;
+            }
+        });
+    }
+
+    if($("#cashModal")){
 
     }
 

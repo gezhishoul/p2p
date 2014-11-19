@@ -247,7 +247,6 @@ textarea {
 button {
   border: none;
   outline: none;
-  overflow: visible;
 }
 
 /**
@@ -740,14 +739,11 @@ em{
 .clearFix{
   zoom:1;
 }
-button{
-  outline: none;
-}
-input{
-  border: 1px solid #c5c5c5;
-}
 input:focus{
   border-color: $themeColor;
+}
+.numberLarge em{
+  font-size: 18px;
 }
 .w960{
   width: 960px;
@@ -768,6 +764,12 @@ input:focus{
 }
 .fs18{
   font-size: 18px;
+}
+.fs14{
+  font-size: 14px;
+}
+.curp{
+  cursor: pointer;
 }
 .fl{
   float: left;
@@ -818,11 +820,14 @@ input:focus{
   box-shadow: 0 0 2px 1px #efefef;
   background: #fff;
 }
+.inputItem input{
+  padding: 4px 5px;
+}
 .themeBtn{
-  padding: 6px 20px;
+  padding: 6px 12px;
   color:#fff;
   background: $themeColor;
-  border-radius: 15px;
+  border-radius: 4px;
 }
 .themeBtn:hover{
   color:#fff;
@@ -845,6 +850,12 @@ hr{
 }
 .themeCor{
   color: $themeColor;
+}
+.greyBack{
+  background: #dbdbdb;
+}
+.cor666{
+  color: #666;
 }
 .danger{
   color: #ea544a;

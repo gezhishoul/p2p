@@ -71,6 +71,9 @@
   color: #999;
   margin-left: 10px; }
 
+.registerBottom label {
+  width: auto; }
+
 .modal-register {
   width: 450px;
   margin: 30px auto; }
@@ -131,7 +134,7 @@
 
 .myAccountSide a.active, .myAccountSide a:hover, .myAccountSide dd span.active, .myAccountSide dt span:hover {
   color: #fff;
-  background: #2ea7e0; }
+  background: #29aadf; }
 
 .myAccountSide i {
   float: left;
@@ -220,9 +223,6 @@
 .securityIcon .userEmail.confirmed {
   background-position: -60px -30px; }
 
-.accountSuper .numberLarge em, .accountSuper .balance {
-  font-size: 18px; }
-
 .superTop .warningColor {
   display: inline-block;
   width: 220px; }
@@ -261,5 +261,43 @@
 
 .summaryRight .fl {
   margin-right: 50px; }
+
+.charge {
+  width: 800px;
+  padding-left: 60px; }
+
+.charge .payment img {
+  border: 1px solid #ddd; }
+
+.chargeArea button, .inputItem .danger, .cashArea button, .bankBtnArea {
+  margin-left: 150px; }
+
+.bankCard li {
+  width: 224px;
+  height: 100px;
+  margin: 10px;
+  position: relative;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  float: left;
+  display: inline;
+  cursor: pointer;
+  overflow: hidden; }
+
+.bankCard img {
+  margin-top: 15px; }
+
+.bankCard .cardNum {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  line-height: 30px;
+  color: #a5a5a5;
+  border-top: 1px solid #ddd; }
+
+#cashModal .modal-register {
+  width: 660px; }
 
 /*# sourceMappingURL=account.css.map */
