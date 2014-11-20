@@ -26,7 +26,7 @@
                 <li>
                     <img src="images/add.jpg" alt=""/>
                     <label class="cardNum">
-                        <a class="themeCor" href="#">新增银行卡</a>
+                        <a class="themeCor" href="#" id="addNewCard">新增银行卡</a>
                     </label>
                 </li>
             </ul>
@@ -86,16 +86,16 @@
                 <div class="inputItem mt10">
                     <label class="uiLabel" for="bankLocation">开户行所在地</label>
                     <input type="text" id="bankLocation"/>
-                    <p class="danger disn">充值金额格式不正确</p>
                 </div>
                 <div class="inputItem mt10">
                     <label class="uiLabel" for="chargeMoney">银行卡号</label>
                     <input type="text" id="chargeMoney"/>
+                    <p class="danger disn">充值金额格式不正确</p>
                 </div>
                 <div class="inputItem mt10">
                     <label class="uiLabel" for="chargeMoney">手机验证码</label>
                     <input type="text" id="chargeMoney"/>
-                    <span class="themeBtn curp" id="validCode">获取验证码</span>
+                    <span class="themeBtn curp" id="validCode" disabled>获取验证码</span>
                 </div>
                 <div class="clearFix mt20 bankBtnArea">
                     <button class="themeBtn fl" type="submit" id="bankAdd">新增</button>

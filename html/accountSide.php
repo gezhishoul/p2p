@@ -10,8 +10,7 @@
     </dl>
     <dl class="collapse investManagement">
         <dt><span><i></i>投资管理</span></dt>
-        <dd class="disn"><a href="#">普通标</a></dd>
-        <dd class="disn"><a href="#">流转标</a></dd>
+        <dd class="disn"><a href="#">投资统计</a></dd>
         <dd class="disn"><a href="#">债权转让</a></dd>
     </dl>
     <dl class="collapse borrowManagement">

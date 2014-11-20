@@ -24,7 +24,10 @@ define(function(require, exports, module) {
     }
 
 
-
+    var isNumber = function(obj){
+        var reg = /^\d+$/;
+        return reg.test(obj);
+    }
 
 
     $(function(){
@@ -242,10 +245,40 @@ define(function(require, exports, module) {
             }
         });
     }
-
+//bankCard modal
     if($("#cashModal")){
+        require("modal");
+        var validateCode = $("#validCode");
+        var countDownValidate = 59;
+        var mobileValidate;
+        var validateBankCard = function(){
+            if(countDownValidate > 0){
+                validateCode.attr("disabled",true).html("<em>"+countDownValidate+"</em>秒后重发");
+                countDownValidate--;
+            }else{
+                validateCode.removeAttr("disabled").html("获取验证码");
+                countDownValidate = 59;
+                clearInterval(mobileValidate);
+            }
+        };
+
+        validateCode.click(function(){
+            if(countDownValidate == 59){
+                mobileValidate = setInterval(validateBankCard,1000);
+            }
+        });
+
+        $("#addNewCard").click(function(){
+            $('#cashModal').modal();
+        });
+
+    };
+
+
+    if($(".cashArea").length > 0){
 
     }
+
 
 
 });

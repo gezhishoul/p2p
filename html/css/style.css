@@ -1266,6 +1266,10 @@ input[type="text"] {
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+.tfoot-pagination li {
+  float: left;
+}
+
 .patrol {
   background: #fff;
 }
@@ -1316,7 +1320,7 @@ input[type="text"] {
   color: #555;
 }
 
-.loanList .creditLel, .accountFilter .creditLel {
+.creditLel {
   display: block;
   margin: 8px auto 0 auto;
   border-radius: 18px;
@@ -1338,7 +1342,7 @@ input[type="text"] {
   height: 42px;
 }
 
-.loanOwner .tabsTitle li, .loanList .tabsTitle li, .accountFilter .tabsTitle li {
+.tabsTitle li, .tabsTitle li, .tabsTitle li {
   position: relative;
   top: 1px;
   float: left;
@@ -1353,7 +1357,7 @@ input[type="text"] {
   border-right: 1px solid #f2f2f2;
   border-top: 4px solid #f2f2f2;
 }
-.loanOwner .tabsTitle li:hover, .loanList .tabsTitle li:hover, .accountFilter .tabsTitle li:hover {
+.tabsTitle li:hover, .tabsTitle li:hover, .tabsTitle li:hover {
   color: #474747;
   border-top-color: #29aadf;
 }
@@ -1367,7 +1371,7 @@ input[type="text"] {
   font-size: 16px;
 }
 
-.loanOwner li.active, .loanList li.active, .accountFilter .tabsTitle li.active {
+.tabsTitle li.active {
   background: #fff;
   border-top: 4px solid #29aadf;
   border-left: 1px solid #e0e0e0;
@@ -1376,7 +1380,7 @@ input[type="text"] {
   cursor: pointer;
 }
 
-.loanOwner .tabContent, .loanList .tabContent, .accountFilter .tabContent {
+.tabContent, .tabContent, .tabContent {
   padding: 30px 35px;
   background: #fff;
   border: 1px solid #e0e0e0;
