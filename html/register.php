@@ -18,23 +18,23 @@
                 <div class="alert"></div>
                 <div class="inputItem">
                     <label class="uiLabel" for="nickName">昵称</label>
-                    <input type="text" class="inputIcon nickName" name="nickName" id="nickName"/>
+                    <input type="text" class="inputIcon nickName form-control" name="nickName" id="nickName"/>
                 </div>
                 <div class="inputItem">
                     <label class="uiLabel"  for="pwd">登录密码</label>
-                    <input type="password" class="inputIcon pwd" name="pwd" id="pwd"/>
+                    <input type="password" class="inputIcon pwd form-control" name="pwd" id="pwd"/>
                 </div>
                 <div class="inputItem">
                     <label class="uiLabel"  for="confirmPwd">确认密码</label>
-                    <input type="password" class="inputIcon pwd confirmPwd" name="confirmPwd" id="confirmPwd"/>
+                    <input type="password" class="inputIcon pwd confirmPwd form-control" name="confirmPwd" id="confirmPwd"/>
                 </div>
                 <div class="inputItem">
                     <label class="uiLabel"  for="mobile">手机号码</label>
-                    <input type="text" class="inputIcon mobile" name="mobile" id="mobile"/>
+                    <input type="text" class="inputIcon mobile form-control" name="mobile" id="mobile"/>
                 </div>
                 <div class="inputItem">
                     <label class="uiLabel"  for="email">邮箱</label>
-                    <input type="text" class="inputIcon email" name="email" id="email"/>
+                    <input type="text" class="inputIcon email form-control" name="email" id="email"/>
                 </div>
                 <div class="registerBottom">
                     <input type="checkbox" checked disabled class="rememberName deal" name="deal" id="deal"/>

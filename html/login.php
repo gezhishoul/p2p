@@ -19,11 +19,11 @@
             <form action="">
                 <div class="alert"></div>
                 <div class="inputItem inputPlace">
-                    <input type="text" class="inputIcon loginName" name="loginName" id="loginName"/>
+                    <input type="text" class="inputIcon loginName form-control" name="loginName" id="loginName"/>
                     <p class="placeHolder">请输入手机号/邮箱</p>
                 </div>
                 <div class="inputItem inputPlace">
-                    <input type="password" class="inputIcon pwd" name="pwd" id="pwd"/>
+                    <input type="password" class="inputIcon pwd form-control" name="pwd" id="pwd"/>
                     <p class="placeHolder">请输入密码</p>
                 </div>
                 <div class="inputItem clearFix">

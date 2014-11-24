@@ -279,6 +279,11 @@ define(function(require, exports, module) {
 
     }
 
+    if($(".userInfo").length > 0){
+        require("datePicker");
+        $("#birthday").datetimepicker();
+    }
+
 
 
 });
