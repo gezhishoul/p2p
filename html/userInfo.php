@@ -8,6 +8,7 @@
     <meta name="keywords" content="" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/account.css" rel="stylesheet" />
+    <link href="css/management.css" rel="stylesheet" />
 </head>
 <body>
 <?php include 'header.php' ?>
@@ -24,19 +25,19 @@
                     <label class="uiLabel">昵称</label>
                     <span>Michael Scofield</span>
                 </div>
-                <div class="inputItem mt10">
+                <div class="inputItem mt20">
                     <label class="uiLabel">真实姓名</label>
                     <input type="text" class="form-control"/>
                 </div>
-                <div class="inputItem mt10">
+                <div class="inputItem mt20">
                     <label class="uiLabel">手机号码</label>
                     <span>18888888888</span>
                 </div>
-                <div class="inputItem mt10">
+                <div class="inputItem mt20">
                     <label class="uiLabel">邮箱地址</label>
                     <span>lord@lord.lord</span>
                 </div>
-                <div class="inputItem mt10 clearFix sexuality">
+                <div class="inputItem mt20 clearFix sexuality">
                     <label class="uiLabel fl">性别</label>
                     <div class="fl">
                         <label for="secret"><input type="radio" checked id="secret" name="sexuality" />保密</label>
@@ -44,11 +45,11 @@
                         <label for="female"><input type="radio" id="female" name="sexuality" />女</label>
                     </div>
                 </div>
-                <div class="inputItem mt10">
+                <div class="inputItem mt20">
                     <label class="uiLabel" for="birthday">出生日期</label>
                     <input type="text" class="form-control" id="birthday"/>
                 </div>
-                <div class="inputItem mt10">
+                <div class="inputItem mt20">
                     <label class="uiLabel" for="career">职业</label>
                     <select name="companyOffice" autocomplete="off" id="career" class="form-control">
                         <option value="103">平面设计</option>
@@ -59,7 +60,7 @@
                         <option value="92">投融资项目/基金</option>
                     </select>
                 </div>
-                <div class="inputItem mt10">
+                <div class="inputItem mt20">
                     <label class="uiLabel" for="career">月收入</label>
                     <select name="companyOffice" autocomplete="off" id="career" class="form-control">
                         <option value="" selected>请选择</option>
@@ -68,6 +69,14 @@
                         <option value="135">10000-20000元</option>
                     </select>
                 </div>
+                <div class="inputItem mt20">
+                    <label class="uiLabel">居住地址</label>
+                    <input type="text" class="form-control"/>
+                </div>
+                <div class="inputItem mt30">
+                    <label class="uiLabel fl"></label>
+                    <button class="themeBtn fl">保存</button>
+                </div>
             </div>
         </form>
     </div>
@@ -75,8 +84,8 @@
 </div>
 <?php include 'footer.php' ?>
 <script type="text/javascript">
-    seajs.use("account");
+    seajs.use(["account","userInfo"]);
 </script>
-<link href="css/datetimepicker.min.css" rel="stylesheet" />
+<link href="css/datepicker.css" rel="stylesheet" />
 </body>
 </html>

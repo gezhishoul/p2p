@@ -21,8 +21,8 @@
     <dl class="collapse accountManagement">
         <dt><span><i></i>账户管理</span></dt>
         <dd class="disn"><a href="userInfo.php">个人基础信息</a></dd>
-        <dd class="disn"><a href="#">认证信息</a></dd>
-        <dd class="disn"><a href="#">安全信息</a></dd>
+        <dd class="disn"><a href="identification.php">认证信息</a></dd>
         <dd class="disn"><a href="#">银行卡信息</a></dd>
+        <dd class="disn"><a href="#">我是借款人</a></dd>
     </dl>
 </div>

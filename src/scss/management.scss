@@ -1,0 +1,25 @@
+@import "_setting";
+@import "_font";
+//account management
+.userPortrait{
+  width: 150px;
+  padding-left: 50px;
+}
+.sexuality input{
+  margin: 0 4px;
+}
+.userInfo .form-control{
+  width: 220px;
+}
+.userInfo select.form-control{
+  width: 232px;
+}
+.infoDetail button{
+  margin-left: 4px;
+}
+.identification .table{
+  text-align: left;
+}
+.identification .glyphicon{
+  margin-right: 5px;
+}
