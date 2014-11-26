@@ -192,5 +192,19 @@ define(function(require, exports, module) {
            return  checkAns(userAns);
         });
 
+        //tips
+        var tipsFilter = $(".tipsFilter");
+        $("#allIn").click(function(){
+           if($(this).prop("checked") == true){
+               tipsFilter.each(function(){
+                  $(this).prop("checked",true);
+               });
+           }else{
+               tipsFilter.each(function(){
+                   $(this).prop("checked",false);
+               });
+           }
+        });
+
     });
 });
