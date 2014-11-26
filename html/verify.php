@@ -45,6 +45,5 @@
 <script type="text/javascript">
     seajs.use(["account","userInfo"]);
 </script>
-<link href="css/datepicker.css" rel="stylesheet" />
 </body>
 </html>

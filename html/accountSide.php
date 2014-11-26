@@ -22,7 +22,8 @@
         <dt><span><i></i>账户管理</span></dt>
         <dd class="disn"><a href="userInfo.php">个人基础信息</a></dd>
         <dd class="disn"><a href="identification.php">认证信息</a></dd>
-        <dd class="disn"><a href="#">银行卡信息</a></dd>
-        <dd class="disn"><a href="#">我是借款人</a></dd>
+        <dd class="disn"><a href="bankCard.php">银行卡信息</a></dd>
+        <dd class="disn"><a href="material.php">我是借款人</a></dd>
+        <dd class="disn"><a href="tips.php">我的消息</a></dd>
     </dl>
 </div>
