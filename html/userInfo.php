@@ -73,9 +73,9 @@
                     <label class="uiLabel">居住地址</label>
                     <input type="text" class="form-control"/>
                 </div>
-                <div class="inputItem mt30">
+                <div class="inputItem mt30 clearFix">
                     <label class="uiLabel fl"></label>
-                    <button class="themeBtn fl">保存</button>
+                    <button type="submit" class="themeBtn fl">保存</button>
                 </div>
             </div>
         </form>

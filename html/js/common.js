@@ -52,9 +52,18 @@ define(function(require, exports, module) {
             }
         });
 
-
-
     };
 
+    exports.sinogram = function(obj){
+        var reg = /^[\u4E00-\u9FA3]+$/;
+        return reg.test(obj);
+    };
 
+    exports.notEmpty = function(obj){
+        if(obj.length > 0){
+            return true;
+        }else{
+            return false;
+        }
+    }
 });

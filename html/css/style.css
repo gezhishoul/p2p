@@ -1123,6 +1123,19 @@ button.close {
   clip: auto;
 }
 
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.alert-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
 html, body {
   height: 100%;
   overflow: auto;
@@ -1261,6 +1274,10 @@ html, body {
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+select.form-control {
+  width: 232px;
+}
+
 .tfoot-pagination li {
   float: left;
 }
@@ -1343,7 +1360,7 @@ html, body {
   float: left;
   height: 38px;
   line-height: 38px;
-  padding: 0 35px;
+  padding: 0 20px;
   border: 0;
   font-size: 16px;
   color: #999;
@@ -1450,7 +1467,7 @@ html, body {
   border-right: none;
 }
 
-.loanListInfo .purchase a {
+.loanListInfo .purchase a, .loanListInfo .purchase span {
   padding: 10px 36px;
 }
 

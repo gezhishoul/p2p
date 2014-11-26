@@ -9,5 +9,4 @@ seajs.config({
         "datePicker":"datepicker.js"
     }
 });
-
 seajs.use('common');
